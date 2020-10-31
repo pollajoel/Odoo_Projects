@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="cookies"> 
+
+    <t t-call="website.layout">
+	
+	
+	<div id="wrap" class="oe_structure oe_empty">
+
+	<section class="s_cover parallax pt96 pb24 s_parallax_no_overflow_hidden" data-scroll-background-ratio="0" style="background-image: none;">
+        <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url(&quot;/dummy_theme/static/img/cookies.jpg&quot;); background-position: 50% 50%;"/>
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title" data-name="Title">
+              <h1 class="s_title_thin" style="font-size: 62px; text-align: center;">
+                <font style="color: rgb(255, 255, 255);">Cookies et vie privée</font>
+                <br/>
+              </h1>
+            </div>
+            <div class="s_text pt16 pb16 offset-lg-2 col-lg-9" data-name="Text">
+              <p class="lead" style="text-align: center;color:#fff;">
+			  <!--
+                En faisant un don à Noble Retour asbl, vous nous permettez de soulager davantage les familles tout en étant encore plus efficace
+				-->
+			 </p>
+            </div>
+          </div>
+        </div>
+      </section>
+	  
+	 
+<section>
+<div class="container">
+<div class="row">
+<div class="col-sm-12 pb-8">	  
+<p style="text-align:justify;mt-10;">
+<br/>
+<br/>
+<br/>
+La présente 'Politique en matière de Cookies' règle <b>l'utilisation des cookies sur notre site web</b> (www.noble-retour.org) et
+ forme un tout avec la Déclaration relative à la vie privée. Nous vous invitons à lire attentivement la présente Politique 
+ en matière de cookies car elle comporte des informations essentielles concernant <b>le type de cookies utilisés,</b> leur fonctionnalité et la manière dont vous pouvez les activer et désactiver. Toutes les dispositions de la Déclaration relative à la vie privée sont également applicables à la présente Politique en matière de cookies. 
+</p>
+<p style="text-align:justify;">
+<h2><b>Qu'est ce qu'un cookie?</b></h2> Comme le requiert l’article 129, 1° de la loi relative aux communications électroniques du 13 juin 2005, NOBLE REOUR entend informer les visiteurs de son site Internet de l’utilisation de cookies. 
+Un cookie est un petit fichier texte qui peut être conservé sur votre ordinateur lorsque vous visitez des sites Internet. Des informations sont enregistrées dans ce fichier texte, comme par exemple votre choix de langue pour un site Internet. Lorsque vous visitez à nouveau le site Internet ultérieurement, ce cookie est renvoyé au site en question. De cette manière, le site Internet reconnaît votre navigateur et peut par exemple retenir votre choix de langue. 
+</p>
+<p style="text-align:justify;">
+Les cookies ont généralement aussi une date d’expiration. Certains cookies sont par exemple automatiquement supprimés lorsque vous fermez votre navigateur (ce que l’on appelle les cookies de session), tandis que d’autres restent plus longtemps sur votre ordinateur, parfois même jusqu’à ce que vous les supprimiez manuellement (ce que l’on appelle les cookies permanents)). 
+</p>
+<p style="text-align:justify;">
+Un 'cookie' est un petit fichier envoyé par le serveur de Noble Retour asbl et qui vient se placer sur le disque dur de votre ordinateur. Les renseignements conservés dans ces cookies sont exclusivement lisibles par nous et uniquement pendant la durée de votre visite sur notre site web. 
+</p>
+<p style="text-align:justify;">
+<b>Pourquoi utilisons-nous des cookies?</b> Notre site web utilise des cookies et autres technologies similaires afin de distinguer vos préférences d'utilisation de celles d'autres utilisateurs de notre site web. Cela nous aide notamment à vous proposer une expérience d'utilisation plus conviviale lors de votre visite sur notre site web ainsi qu'à optimaliser notre site web. Suite à de récentes modifications de la loi, tous les sites web qui s'adressent à certaines parties de l'Union Européenne sont obligés de demander votre autorisation pour l'utilisation et la sauvegarde de cookies et autres technologies similaires sur votre ordinateur ou appareil mobile. La présente Politique en matière de cookies vous donne une information claire et complète concernant les cookies que nous utilisons et leur but.
+</p>
+ <p style="text-align:justify;">
+<b>Cookies fonctionnels et non-fonctionnels</b> Bien qu'il existe différentes sortes de cookies, qui se différencient en fonction de leur fonctionnalité, de leur provenance ou de leur temps de conservation, la législation distingue principalement les cookies fonctionnels ou techniquement nécessaires d'une part, et tous les autres cookies d'autre part. Les cookies sont dits 'fonctionnels' lorsqu'ils sont exclusivement destinés à exécuter l'envoi d'une communication ou strictement nécessaires pour la fourniture d'un service demandé par l'utilisateur. À titre d'exemples de tels cookies fonctionnels, citons ceux qui permettent la sélection 
+
+de la langue, les réglages des cookies par l'utilisateur, la conservation du panier ou encore ceux qui aident à remplir les formulaires. 
+
+Tous les autres cookies sont considérés comme des cookies 'non-fonctionnels'. À titre d'exemple de tels cookies 'non-fonctionnels' citons les cookies qui permettent des publicités personnalisées ou l'analyse de l'utilisation du site web, ou des cookies de médias sociaux. Les cookies de médias sociaux sont utilisés pour permettre l'intégration de sites de réseaux sociaux dans notre site web. Nos services en ligne peuvent contenir des éléments embarqués de tierces parties (e.a. l'utilisation du pixel Facebook). Pour les cookies placés par des tierces parties (e.a. le pixel Facebook, Google Analytics, Twitter, LinkedIn, YouTube), nous vous renvoyons aux déclarations faites par ces parties sur leurs sites web respectifs (voyez ci-dessous). Attention : nous n'avons aucun moyen de contrôle sur le contenu de ces déclarations ou sur le contenu des cookies de ces tierces parties. Facebook Google Twitter Linkedin Youtube Le site web utilise exclusivement les cookies fonctionnels et non-fonctionnels. 
+Votre autorisation Lors de votre première visite sur notre site web, il vous est demandé d'accepter nos différents types de cookies. Vous pouvez également refuser ou bloquer les cookies en modifiant les paramètres de configuration de votre système de navigation. La désactivation des cookies peut toutefois vous empêcher d'utiliser certaines fonctionnalités du site web. Ci-dessous, vous trouverez plus d'informations sur les paramètres des navigateurs les plus courants. Tous les navigateurs offrent des options pour gérer les cookies stockés sur votre ordinateur / appareil. Vous pouvez bloquer ou autoriser les cookies, ou vous pouvez ajouter des sites spécifiques dont vous souhaitez accepter les cookies. Les navigateurs sur les appareils mobiles ont généralement moins d'options de personnalisation que ceux sur les ordinateurs. Remarque : si vous effectuez de telles modifications, cela n'affectera pas les cookies qui ont déjà été stockés sur votre ordinateur. Vous devez donc le supprimer séparément. Gestion des cookies dans : Internet Explorer Mozilla Firefox Google Chrome Safari 
+</p>
+
+<p style="text-align:justify;"><b>Comment voir quels cookies sont installés sur mon appareil et comment les supprimer ?</b>
+ Si vous voulez savoir quels cookies sont installés sur votre appareil ou si vous souhaitez les supprimer,
+ vous pouvez utiliser un paramètre de votre navigateur. Vous trouverez davantage d’explications sur la manière 
+ de procéder via les liens ci-dessous. Si vous souhaitez bloquer les cookies, vous pouvez le faire pour le navigateur
+ que vous utilisez. Internet Explorer : http://windows.microsoft.com/fr-FR/windows7/Block-enable-or-allow-cookies 
+<!-- <a href="http://support.google.com/chrome/bin/answer.py?hl=fr&answer=95647" target="_blank"> Chrome </a> -->
+ http://support.mozilla.org/fr/kb/activer-desactiver-cookies Safari : http://support.apple.com/kb/PH5042
+ Vous utilisez un autre navigateur ? Vérifiez si la procédure pour votre navigateur est repris sur le site Internet 
+ www.allaboutcookies/manage-cookies.org. Ce site est uniquement disponible en anglais. Lorsque vous désactivez des cookies
+ tenez toutefois compte du fait que certains éléments graphiques ne s’afficheront peut-être pas correctement ou que vous ne pourrez pas
+ utiliser certaines applications. 
+</p>
+<p style="text-align:justify;">
+<b>Vie privée</b> Certains cookies utilisés traitent également des données à caractère personnel.
+ Pour le traitement de ces données à caractère personnel, les objectifs et les cookies et autres moyens
+ utilisés, nous vous renvoyons à la Déclaration relative à la vie privée. Pour toute question ou remarque
+ concernant le traitement de vos données à caractère personnel, nous vous invitons à nous contacter, soit 
+ par e-mail sur <a href="mailto:info@noble-retour.org">info@noble-retour.org</a> par courrier postal adressé à NOBLE RETOUR ASBL sis au 18 Rue Fouche, 6060 Charleroi. Davantage d'informations concernant les cookies également sur www.allaboutcookies.org. Davantage d'informations concernant l'online behavioural advertising et l'online privacy en cliquant www.youronlinechoices.eu.
+</p>
+</div>
+</div>
+</div>
+
+	  
+</section>  
+	  
+	  
+	  
+	  
+	  
+	  
+	 </div>
+	  
+	
+	
+	</t>
+</template>
+
+<record id="cookies_page" model="website.page">
+        <field name="website_published">True</field>
+        <field name="url">/cookies-et-vie-privée</field>
+        <field name="view_id" ref="cookies"/>
+    </record>
+
+</odoo>

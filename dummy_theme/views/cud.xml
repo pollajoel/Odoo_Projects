@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<template id="cud" > 
+		<t t-call="website.layout">
+		
+		 <div style="background-color: red;">This is some simple HTML</div>
+		
+		</t>
+
+	</template>
+	
+	
+	
+	<record id="cud_page1" model="website.page">
+        <field name="website_published">True</field>
+        <field name="url">/teste</field>
+        <field name="view_id" ref="cud"/>
+</record>
+	
+	
+
+</odoo>

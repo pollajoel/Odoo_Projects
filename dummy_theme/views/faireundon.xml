@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="faireundon"> 
+
+    <t t-call="website.layout">
+	
+	
+	  
+	
+	<div id="wrap" class="oe_structure oe_empty">
+      <section class="s_cover parallax pt96 pb24 s_parallax_no_overflow_hidden" data-scroll-background-ratio="0" style="background-image: none;">
+        <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url(&quot;/dummy_theme/static/img/faq.jpg&quot;); background-position: 50% 50%;"/>
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title" data-name="Title">
+              <h1 class="s_title_thin" style="font-size: 62px; text-align: center;">
+                <font style="color: rgb(255, 255, 255);">Avec vos dons, allons plus loin !</font>
+                <br/>
+              </h1>
+            </div>
+            <div class="s_text pt16 pb16 offset-lg-2 col-lg-9" data-name="Text">
+              <p class="lead" style="text-align: center;color:#fff;">
+                En faisant un don à Noble Retour asbl, vous nous permettez de soulager davantage les familles tout en étant encore plus efficace
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_text_image pt32 pb32">
+        <div class="container">
+          <div class="row align-items-center" style="text-align: justify;">
+            <div class="col-lg-12 pb0 pt40">
+              <p style="text-align:justify;">
+                L’énergie que nous mettons à vous accompagner est à la hauteur des objectifs que nous nous sommes fixés en créant Noble Retour. L’association est composée de bénévoles qui mettent leur temps et leur énergie au service des membres et de leurs familles. Si notre mission vous tient à cœur, toute aide financière ou matérielle est la bienvenue, car nous avons pour ambition de nous déployer sur tout l’étendue du territoire Européen.
+                <br/>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_text_image pt8 pb8">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16">
+              <img src="/website_blog/static/src/img/demo/blog_post_cover_1.jpg" class="img img-fluid mx-auto" alt="Odoo • Image and Text" data-original-title="" title="" aria-describedby="tooltip229845"/>
+            </div>
+            <div class="col-lg-6 pt16 pb16">
+              <h2>Dons ponctuels<br/></h2>
+              <p style="text-align:justify;">
+                <font>Vous pouvez choisir de faire un don ponctuel à NOBLE RETOUR asbl à un moment qui vous semble opportun, pour nous permettre d’alléger encore mieux la charge financière des familles.</font>
+                <span style="line-height:&#10;115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:Calibri;&#10;mso-fareast-theme-font:minor-latin;mso-ansi-language:FR-BE;mso-fareast-language:&#10;EN-US;mso-bidi-language:AR-SA" lang="FR-BE"/>
+              </p>
+              <div class="col-lg-12 pb16 pt16 s_btn text-left" data-name="Buttons">
+                <a href="/adhesion" class="btn btn-danger rounded-circle rounded-circle rounded-circle" data-original-title="" title="" aria-describedby="tooltip916094">Je m'engage Maintenant!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_banner parallax pt96 pb96 s_parallax_no_overflow_hidden" data-scroll-background-ratio="0" style="background-image: none;">
+        <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url(&quot;/dummy_theme/static/images/homeslider/projet4.jpeg&quot;); background-position: 50% 0px;"/>
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-7 bg-white jumbotron rounded pt32 pb8" data-name="Box">
+              <div class="row">
+                <div class="col-lg-12 s_title s_col_no_bgcolor" data-name="Title">
+                  <h1 class="s_title_thin">
+                    <font style="color: rgb(0, 0, 0); font-size: 24px;"><b>Dons réguliers : </b>je donne tous les mois <b><br/></b></font>
+                  </h1>
+                </div>
+                <div class="col-lg-12 pt8 pb32 s_col_no_bgcolor" data-name="Text" style="text-align: justify;">
+                  <p>
+                    En effet, faire un don régulièrement c’est nous assurer des moyens financiers pérennes qui nous permettent de poursuivre et d’aller plus loin dans notre mission. De ce fait, choisir d’accompagner nos actions sur la durée, à travers le prélèvement automatique. En devenant donateur régulier, vous nous permettez d’agir pour aujourd’hui mais aussi pour demain..
+                  </p>
+                  <div class="col-lg-12 pb16 pt16 s_btn text-left" data-name="Buttons">
+                    <a href="/adhesion" class="rounded-circle rounded-circle btn btn-danger rounded-circle" data-original-title="" title="" aria-describedby="tooltip916094">Comment Adhérer?</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_text_image pb32 pt0">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16">
+              <h2>Aider autrement <br/></h2>
+              <div style="text-align: justify;">
+                <p>La régularité des dons autres que financières, nous permet de prévoir nos actions sur la durée et de mener à bien notre mission de sensibilisation, d’encouragement et d’aide envers les diasporas africaines. En devenant donateur, vos actions peuvent porter par exemple sur le matériel bureautique, le matériel informatique, productions d’idées pouvant servir au mieux les intérêts de NR, etc.&amp;nbsp;</p>
+              </div>
+            </div>
+            <div class="col-lg-6 pt16 pb16">
+              <img src="/website/static/src/img/backgrounds/la.jpg" class="img img-fluid mx-auto" alt="Odoo • Text and Image" data-original-title="" title="" aria-describedby="tooltip39026"/>
+            </div>
+          </div>
+        </div> 
+	    </section>
+		
+		
+		
+		
+		
+		<section class="s_text_image pt8 pb8 bg-300">
+		<div class="container">
+		<div class="row">
+		
+		<div class="col-sm-2"></div>
+		<div class="col-sm-8 bg-uppercrust_grey pb32 pt16">
+		
+		<h1 class="text-center"> FAIRE UN DON </h1>
+		
+		
+		<form method="POST" action="/shop/cart/update">
+		
+		<div class="form-group">
+			<label for="emailDon">email<b style="color:red;">*</b></label>
+			<input type="email"  id="emailDon" t-att-value="emailDon" class="form-control form-control-lg" name="emailDon" placeholder="" required="required"/>
+		</div>
+		
+		<div class="form-group">
+			<label for="formGroupExampleInput">Numéro de téléphone<b style="color:red;">*</b></label>
+			<input type="text" class="form-control form-control-lg" id="phoneDon" name="phoneDon" t-att-value="phoneDon"  placeholder="" required="required"/>
+		</div>
+
+            <div class="form-group">
+                        <label for="product_id"></label>
+                        <input type="hidden" class="product_id" name="product_id"  value="3" />
+            </div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="custom-control custom-checkbox mb10">
+                    <input type="checkbox" class="custom-control-input" id="invalidCheck2" name="customCheck3"/>
+                    <label class="custom-control-label" for="invalidCheck2">je fais ce don au nom d’une société ou organisation</label>
+                </div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="form-group" id="typenomentreprise" style="display:none;"> 
+			<label for="Nomentreprise">Nom de l'entreprise<b style="color:red;">*</b></label>
+			<input type="text" class="form-control form-control-lg"
+                   name="Nomentreprise" id="Nomentreprise" t-att-value="Nomentreprise"  placeholder="" />
+		</div>
+
+
+		
+		<div class="form-group" id="typecivilite">
+		<label class="my-1 mr-2" for="inlineFormCustomSelectPref">civilité</label>
+			<select class="custom-select my-1 mr-sm-2" name="Civilitedon" id="Civilitedon" t-att-value="Civilitedon">
+				<option value="M"> M.</option>
+				<option value="Mme">Mme.</option>
+			</select>
+		
+		</div>
+		
+		
+		
+		
+		
+		<div class="form-group">
+			<label for="formGroupExampleInput">Prénom<b style="color:red;">*</b></label>
+			<input type="text" class="form-control form-control-lg" id="phoneDon" t-att-value="phoneDon"  name="phoneDon" placeholder="" required="required"/>
+		</div>
+
+
+		<div class="form-group">
+			<label for="NonDonateur">Nom<b style="color:red;">*</b></label>
+			<input type="text" class="form-control form-control-lg" id="NonDonateur" t-att-value="NonDonateur" name="NonDonateur" placeholder="" required="required"/>
+		</div>
+
+
+
+
+
+		<div class="form-group">
+			<label for="formGroupExampleInput">Adresse<b style="color:red;">*</b></label>
+			<input type="text" class="form-control form-control-lg" id="adresseDonateur" name="adresseDonateur" t-att-value="adresseDonateur" placeholder="" required="required"/>
+		</div>
+		
+		
+		<div class="form-row">
+				<div class="col">
+					<label for="numeroRueDonateur">Numéro de rue<b style="color:red;">*</b></label>
+					<input type="text" class="form-control form-control-lg" placeholder="" id="numeroRueDonateur" name="numeroRueDonateur"  t-att-value="numeroRueDonateur"/>
+				</div>
+				<div class="col">
+					<label for="formGroupExampleInput">Boîte</label>
+					<input type="text" class="form-control form-control-lg" placeholder="" t-att_value="boitepostalDonatuer" id="boitepostalDonatuer" name="boitepostalDonatuer"/>
+				</div>
+		</div>
+		
+		
+		
+		<div class="form-group">
+			<label for="postal_code">Code postal<b style="color:red;">*</b></label>
+			<input type="text" class="form-control form-control-lg" id="postal_code" placeholder="" required="required" name="postal_code" t-att-value="postal_code"/>
+		</div>
+		
+		<div class="form-group">
+			<label for="villedonateur">Ville<b style="color:red;">*</b></label>
+			<input type="text" class="form-control form-control-lg" id="villedonateur" t-att-value="villedonateur" name="villedonateur" placeholder="" required="required"/>
+		</div>
+		
+		
+
+
+		<div class="form-group">
+			<label for="paysdonateur">Pays<b style="color:red;">*</b></label>
+			<input type="text" class="form-control form-control-lg" id="paysdonateur" t-att-value="paysdonateur" name="paysdonateur" placeholder="" required="required"/>
+		</div>
+		
+		
+		
+		
+		<div class="custom-control custom-checkbox mb10">
+                    <input type="checkbox" class="custom-control-input" id="customCheck9" name="customCheck3"/>
+                    <label class="custom-control-label" for="customCheck9">J’ai lu et j’accepte la <a href="/confidentialite">Politique de Confidentialité et de Traitement des Données Personnelles</a></label>
+                </div>
+		
+      
+		
+	  
+		
+		
+		<button class="btn btn-primary btn-lg" type="submit" id="donnerId">Soumettre</button>
+		
+		
+		
+		
+		
+		
+	</form>
+	
+	</div>
+	
+	<div class="col-sm-2"></div>
+	</div>
+	</div>
+	</section>
+		
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+    </div>
+      
+  
+	
+	</t>
+</template>
+
+<record id="don_page" model="website.page">
+        <field name="website_published">True</field>
+        <field name="url">/faire-un-don</field>
+        <field name="view_id" ref="faireundon"/>
+    </record>
+
+</odoo>

@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="faq"> 
+
+    <t t-call="website.layout">
+	
+	<div id="wrap" class="oe_structure oe_empty">
+      <section class="s_cover parallax bg-black-50 pt96 pb24 s_parallax_no_overflow_hidden" data-scroll-background-ratio="0" style="background-image: none;">
+        <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url(&quot;/dummy_theme/static/images/faqs/banner.jpeg&quot;); background-position: 50% 50%;"/>
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title" data-name="Title">
+              <h1 class="s_title_thin" style="font-size: 62px; text-align: center;">
+                <font style="color: rgb(255, 255, 255);">Comment ça marche?</font>
+                <br/>
+              </h1>
+            </div>
+            <div class="s_text pt16 pb16 offset-lg-2 col-lg-9" data-name="Text">
+              <p class="lead" style="text-align: center;">
+                <b>
+                  <font style="color: rgb(255, 255, 255);">Trouvez les réponses aux questions les plus courantes sur la nature de 
+notre couverture et sur la manière dont nous protégeons nos membres dans
+ le monde entier.</font>
+                </b>
+              </p>
+            </div>
+            <div class="col-lg-12 s_btn text-center pt16 pb16" data-name="Buttons">
+              <a href="/notre-projet" class="btn btn-danger rounded-circle rounded-circle" data-original-title="" title="" aria-describedby="tooltip916094">Notre projet</a>
+              <a href="/contact" class="btn btn-primary rounded-circle o_default_snippet_text">Contactez-nous</a>
+            </div>
+          </div>
+        </div>
+      </section>
+	  
+      <section class="s_text_image pt32 pb0">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16">
+              <img src="/dummy_theme/static/images/faqs/faq.jpeg" class="img img-fluid mx-auto" alt="Odoo • Image et Texte"/>
+            </div>
+            <div class="col-lg-6 pt16 pb16">
+              <h2>Comment devenir membre?</h2>
+              <p style="text-align:justify;">
+               Noble Retour est une association de droit belge, basée à Charleroi. L’association a pour but le soutien administratif, moral, financier et social des adhérents et leurs proches dans l’organisation du rapatriement de la dépouille de l’un de ses membres.
+              </p>
+              <div class="s_btn text-left pb0 pt0" data-name="Buttons">
+                <a href="/adhesion" class="btn btn-primary" data-original-title="" title="" aria-describedby="tooltip240178">
+                  <font style="font-size: 18px;" data-original-title="" title="" aria-describedby="tooltip644068">Je souhaiterais adhérer au réseau?&amp;nbsp;</font>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_faq_collapse pb32 pt0">
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title pb0 pt0" style="text-align: justify;">
+              <h1 class="s_title_thin">Questions fréquemment posées<br/></h1>
+            </div>
+          </div>
+          <div class="row s_col_no_bgcolor">
+            <div class="col-lg-12 pt16 pb16">
+              <div id="myCollapse" class="accordion" role="tablist">
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-target="#myCollapseTab1584533141336" data-original-title="" title="" aria-describedby="tooltip443911">
+                    <span class="fontstyle0">Quelle est l’étendue de l’aide que Noble Retour (NR) offre à ses membres ?</span>
+                    <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                  </a>
+                  <div class="collapse" role="tabpanel" id="myCollapseTab1584533141336" style="">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <span class="fontstyle0">
+                          <b>
+                            <font style="font-size: 18px;">Quelle est l’étendue de l’aide que Noble Retour (NR) offre à ses membres ?</font>
+                          </b>
+                        </span>
+                        <br/>
+                        <span class="fontstyle0">
+                          <br/>
+                        </span>
+						<p style="text-align:justify;">
+                        <span class="fontstyle2">Votre adhésion entre en vigueur dès que vous recevez une note de notre part pour vous en informer. Mais, vous devez observer une période de carence de 366 jours à compter de la date à laquelle l’ASBL Noble Retour vous confirmera votre adhésion. Exception faite pour les personnes dites à risque, qui n’ont pas de période de carence. Mais si ces derniers venaient à décéder avant d’avoir payé leur frais de membre, il leur serait remboursé 80% des sommes cotisées. L’adhérent doit être résident, citoyen ou visiteur dans le pays où il vit en</span>
+                        <span class="fontstyle2">Europe ou en Amérique du Nord.</span>
+						</p>
+						
+					   
+                        <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-target="#myCollapseTab1584533141337" data-original-title="" title="" aria-describedby="tooltip626837">
+                    <span class="fontstyle0">Qui peut être bénéficiaire en cas de décès d’un adhérent ?</span>
+                    <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                  </a>
+                  <div class="collapse" role="tabpanel" id="myCollapseTab1584533141337" style="">
+                    <div class="card-body">
+                      <div style="text-align: justify;">
+                        <span class="fontstyle0">Le bénéficiaire peut être l’une des personnes désignées par l’adhérent dans sa demande d’adhésion. Le bénéficiaire peut être mis à jour par l’adhérent en tout temps. Il s’agit de le faire soi-même en ligne ou contacter Noble Retour, et ce, par écrit.</span>
+                        <br/>
+                        <span class="fontstyle0">Si la désignation du Bénéficiaire ne peut prendre effet ou est contestée, l’aide intégrale au rapatriement de maximum 8000 euros est dû à ses ayants droits : conjoint et enfants légitimes.</span>
+                        <span class="fontstyle0">Si plusieurs Bénéficiaires sont désignés nommément ou génériquement, le montant de l’aide</span>
+                    
+						
+						<br/>
+                        
+                      </div>
+                      <span class="fontstyle0">au rapatriement est réparti à parts égales entre les Bénéficiaires concernés</span>
+                      <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-target="#myCollapseTab1584533141338" data-original-title="" title="" aria-describedby="tooltip460959">
+                    <span class="fontstyle0">L’aide est-elle valable si on est en voyage ?</span>
+                    <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                  </a>
+                  <div class="collapse" role="tabpanel" id="myCollapseTab1584533141338" style="">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0">Tout résident de l’Europe et de l’Amérique du Nord peut être membre à condition d’être en santé au moment de sa demande. Peu importe où le décès survient dans le monde, l’adhérent est toujours protégé à hauteur maximale du montant de l’aide au rapatriement. </span>
+                        <br/>
+                        <br/>
+                        <span class="fontstyle0">Néanmoins, tout membre désireux de se déplacer dans un pays autre que celui de résidence est convié à en informer Noble Retour asbl via e-mail ou par courrier postal. Pour tout décès survenu hors du pays de résidence d’un membre en règle du réseau, NR tient à rappeler que son aide ne peut dépasser 8.000 euros</span>
+                        <br/>
+                      </p>
+                      <p class="card-text" style="text-align: justify;">
+                        <br/>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587036866112"><span class="fontstyle0" data-original-title="" title="" aria-describedby="tooltip609137">Quelle procédure doit suivre le bénéficiaire quand il y a un décès, d’un membre de NR ?</span><br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>&amp;nbsp;</a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587036866112">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0"/>
+                        <span class="fontstyle0">Une fois que le décès d’un membre nous est signalé à l’une des adresses suivantes <b>T.honorine@noble-retour.org</b> ou <b>info@noble-retour.org</b>, la procédure suivante s’enclenche :</span>
+                        <br/>
+                        <span class="fontstyle0"><br/>La famille du défunt devra nous renseigner sur :<br/>-Certificat médical de décès<br/>-Le nom et coordonnées de la personne décédée<br/>-La localisation exacte de la personne décédée<br/>-La destination exacte du pays d’origine<br/>-La personne de contact : nom, numéro téléphone, adresse mail.</span>
+                        <br/>
+                        <span class="fontstyle0"><br/>Après les vérifications d’usage et selon l’option choisie par l’adhérent, le montant dû esttransféré au bénéficiaire qui se charge du rapatriement si l’adhérent avait choisi l’option 1. Si l’adhérent avait choisi l’option 2, Noble Retour saisi son partenaire funéraire le plus proche du lieu de décès et le met en contact avec la famille du défunt, afin que pour qu’ensemble, l’organisation du rapatriement se passe dans de bonnes conditions.</span>
+                        <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                        <span class="fontstyle0"/>
+                        <br/>
+                      </p>
+                      <p class="card-text" style="text-align: justify;">
+                        <br/>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587036864995"><span class="fontstyle0" data-original-title="" title="" aria-describedby="tooltip703115">Si je suis seul dans ma ville, comment Noble Retour sera-t-elle informée de mon décès ?</span><br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>&amp;nbsp;</a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587036864995">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;"><span class="fontstyle0">De son vivant, tout membre doit prendre les mesures nécessaires pour que NR soit informé en cas de son décès. Au cas où un membre ne sait quoi faire, il doit contacter NR aussitôt afin qu’ensemble on trouve une solution adéquate</span>&amp;nbsp; 
+<span class="fontstyle0">C’est de la responsabilité de l’adhérent d’initier cette procédure   hors du pays de résidence d’un membre en règle du réseau, NR tient à rappeler que son aide ne peut dépasser 8.000 euros</span><br/></p>
+                      <p class="card-text" style="text-align: justify;">
+                        <br/>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587036864149">
+                    <span class="fontstyle0">L’aide est-elle valable si on est en voyage ?</span>
+                    <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                  </a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587036864149">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0">Tout résident de l’Europe et de l’Amérique du Nord peut être membre à condition d’être en bonne santé au moment de sa demande. Peu importe où le décès survient dans le monde, l’adhérent est toujours protégé à hauteur maximale du montant de l’aide au rapatriement. </span>
+                        <br/>
+                        <br/>
+                        <span class="fontstyle0">Après les vérifications d’usage et selon l’option choisie par l’adhérent, le montant dû est transféré au bénéficiaire qui se charge du rapatriement si l’adhérent avait choisi l’option 1. Si l’adhérent avait choisi l’option 2, Noble Retour saisi son partenaire funéraire le plus proche du lieu de décès et le met en contact avec la famille du défunt, afin que pour qu’ensemble, l’organisation du rapatriement se passe dans de bonnes conditions.</span>
+                        <br/>
+                      </p>
+                      <p class="card-text" style="text-align: justify;">
+                        <br/>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587036862824"><span class="fontstyle0">Est-ce que mon adhésion ou mon inscription exige des frais ?</span><br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>&amp;nbsp;</a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587036862824">
+                    <div class="card-body">
+                      <span class="fontstyle0">Oui. Les frais d’adhésion coûtent 26 euros, ne sont exigibles qu’une seule fois et non remboursables</span>
+                      <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587036859502"><span class="fontstyle0">Est-ce que mon adhésion ou mon inscription exige des frais ? </span>&amp;nbsp;</a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587036859502">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0">
+                          <span class="fontstyle0">Oui. Les frais d’adhésion coûtent 26 euros, ne sont exigibles qu’une seules fois et non remboursables.</span>
+                          <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587037295747">
+                    <span class="fontstyle0" data-original-title="" title="" aria-describedby="tooltip690806">Devrais-je payer mes cotisations par mois ?</span>
+                    <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                  </a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587037295747">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0">
+                          <span class="fontstyle0">
+                            <span class="fontstyle0">Non, elles doivent être payées en une seule tranche. Et s’élèvent à 50 euros par an. Exception faite pour les familles nombreuses (pourront payer en trois tranches au maximum) et les personnes à risque (qui doivent contacter le trésorier à l’adresse<b> N.Bertrand@nobleretour.org </b>pour fixer de commun accord la politique de paiement).</span>
+                            <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                          </span>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587037363939"><span class="fontstyle0">Existe-t-il un délai de carence ? 
+</span>&amp;nbsp;</a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587037363939">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0">
+                          <span class="fontstyle0">
+                            <span class="fontstyle0">
+                              <span class="fontstyle0">Oui, Il est de 365 jours. La protection commence le 366</span>
+                              <span class="fontstyle0" style="font-size:8pt;">e </span>
+                              <span class="fontstyle0">jour à compter de l’inscription. Exemple : je reçois une confirmation de mon adhésion 1</span>
+                              <span class="fontstyle0" style="font-size:8pt;">er </span>
+                              <span class="fontstyle0">mai 2020, mon statut devient actif le 1 mai 2021. Par conséquent si, je décède le 1 mai 2021, Noble Retour prend en charge mon<br/>décès. Exception faite pour les personnes dites à risque, qui n’ont pas de période de carence. Mais si ces derniers venaient à décéder avant d’avoir payé leur cotisation, il leur serait remboursé 80% des sommes cotisées</span>
+                              <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                            </span>
+                          </span>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587037412593"><span class="fontstyle0" data-original-title="" title="" aria-describedby="tooltip12579">Est-ce que je peux perdre ma protection bien qu’étant inscrit ? 
+</span>&amp;nbsp;</a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587037412593">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0">
+                          <span class="fontstyle0">
+                            <span class="fontstyle0">
+                              <span class="fontstyle0">Oui, car si tu ne paies pas ta cotisation annuelle ou ne respecte pas nos statuts et ROI, tu perds tes privilèges de membre</span>
+                              <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                            </span>
+                          </span>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587037411683"><span class="fontstyle0" data-original-title="" title="" aria-describedby="tooltip818578">Quels sont les modes de paiement acceptés par Noble Retour ? 
+</span>&amp;nbsp;</a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587037411683">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0">
+                          <span class="fontstyle0">
+                            <span class="fontstyle0">
+                              <span class="fontstyle0">Seuls les paiements en ligne par carte de Débit, Crédit (Visa, mastercard…), virements bancaires, ordres permanents et/ou domiciliation sont acceptés. Exceptionnellement, un autre mode de paiement pourra être autorisé sur demande de l’adhérent.</span>
+                              <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                            </span>
+                          </span>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587037410614">
+                    <span class="fontstyle0">Je veux inscrire plusieurs membres de ma famille, puis-je payer nos cotisations en plusieurs versements ? 
+</span>
+                    <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; " data-original-title="" title="" aria-describedby="tooltip79573"/>
+                  </a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587037410614">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0">
+                          <span class="fontstyle0">
+                            <span class="fontstyle0">
+                              <span class="fontstyle0">Oui, si et seulement s’il s’agit d’une famille nombreuse (père, mère et les enfants). Dans ce cas, vous faites une demande auprès du trésorier ( <b>N.Bertrand@noble-retour.org</b> ) et après concertation du conseil d’administration, une solution appropriée vous sera proposée.</span>
+                              <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                            </span>
+                          </span>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587037409552">
+                    <span class="fontstyle0">Est-il possible de payer à l’avance pour plusieurs années ?</span>
+                    <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; " data-original-title="" title="" aria-describedby="tooltip479000"/>
+                  </a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587037409552">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0">
+                          <span class="fontstyle0">
+                            <span class="fontstyle0">
+                              <span class="fontstyle0">Oui, mais les frais de membres sont non remboursables.</span>
+                              <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                            </span>
+                          </span>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587037408448">
+                    <span class="fontstyle0" data-original-title="" title="" aria-describedby="tooltip127923">Qu’arrive-t-il si je ne paie pas ma cotisation à l’expiration de la date d’échéance ? 
+</span>
+                    <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; " data-original-title="" title="" aria-describedby="tooltip447630"/>
+                  </a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587037408448">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0">
+                          <span class="fontstyle0">
+                            <span class="fontstyle0">
+                              <span class="fontstyle0">S'il arrive qu'un membre ne soit pas en ordre de cotisation, l’association l’invite à se mettre en ordre via mail ou courrier postal. Le membre a alors un mois à compter du jour de la notification du mail ou de l’envoi du courrier, pour se mettre en ordre. Au cas contraire, il perd tous ses droits et aucun remboursement ne lui sera effectué. À partir de ce moment, l’adhérent est frappé par l’article 5 de notre politique d’adhésion.</span>
+                            </span>
+                          </span>
+                        </span>
+                        <br/>
+                        <span class="fontstyle0">
+                          <span class="fontstyle0">
+                            <span class="fontstyle0">
+                              <span class="fontstyle0"><br/>En ce qui concerne les personnes à risque, ils perdent aussi leurs droits à l’aide au cas où ils venaient à décéder sans avoir payé la totalité de leur cotisation qui s’élève à 4000 euros. Néanmoins, 80% des sommes cotisées sera remise à la famille ou ayant droit.</span>
+                              <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                            </span>
+                          </span>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587037407187">
+                    <span class="fontstyle0">Comment puis-je réintégrer l’organisation après avoir perdu ma qualité de membre ? 
+</span>
+                    <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; " data-original-title="" title="" aria-describedby="tooltip968430"/>
+                  </a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587037407187">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0">
+                          <span class="fontstyle0">
+                            <span class="fontstyle0">
+                              <span class="fontstyle0">Vous devez payer toutes les contributions des années précédentes plus les frais d’administration de 26 euros. Par ailleurs, vous devez encore observer à nouveau la période de carence en vigueur</span>
+                              <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                            </span>
+                          </span>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587037405520"><span class="fontstyle0" data-original-title="" title="" aria-describedby="tooltip348518">Quand puis-je résilier mon adhésion au sein de Noble retour ? 
+</span>&amp;nbsp;</a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587037405520">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0">
+                          <span class="fontstyle0">
+                            <span class="fontstyle0">
+                              <span class="fontstyle0">En tout temps, en envoyant une lettre signée au secrétariat de Noble Retour à l’adresse suivante : <b>T.honorine@noble-retour.org</b>. ou <b>N.Bertrand@noble-retour.org</b></span>
+                              <b> 
+</b>
+                              <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                            </span>
+                          </span>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587037404192"><span class="fontstyle0">Dans quel délai doit-on notifier un décès auprès de Noble retour ? 
+</span>&amp;nbsp;</a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587037404192">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0">
+                          <span class="fontstyle0">
+                            <span class="fontstyle0">
+                              <span class="fontstyle0">Aussitôt que possible, le secrétariat de Noble Retour doit être informé. Peu importe les circonstances du décès, l’indisponibilité du corps en raison d’une enquête policière ou d’une procédure judiciaire</span>
+                              <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                            </span>
+                          </span>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587037402810">
+                    <span class="fontstyle0">Qu’arrive-t-il si une fraude est détectée ?</span>
+                    <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                  </a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587037402810">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0">
+                          <span class="fontstyle0">
+                            <span class="fontstyle0">
+                              <span class="fontstyle0">Tout membre impliqué dans une fraude envers l’Organisation perd automatiquement sa qualité de membre et les avantage s’y afférent. La décision de son exclusion est prononcée par le conseil d’administration après analyse de la situation.</span>
+                              <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                            </span>
+                          </span>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587038093522"><span class="fontstyle0" data-original-title="" title="" aria-describedby="tooltip341774">En quoi consiste la fraude ? 
+</span>&amp;nbsp;</a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587038093522">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <br/>
+                        <span class="fontstyle0">
+                          <span class="fontstyle0">
+                            <span class="fontstyle0">
+                              <span class="fontstyle0">La fraude est toute tentative volontaire d’un membre ayant pour objectif de profiter indûment de l’aide qu’offre l’Organisation à ses membres en règle.</span>
+                            </span>
+                          </span>
+                        </span>
+                        <br/>
+                        <span class="fontstyle0">
+                          <span class="fontstyle0">
+                            <span class="fontstyle0">
+                              <span class="fontstyle0"><b><br/>Exemples de fraudes :</b> Fournir les faux documents à Noble Retour, le fait de forcer la modification des données dans le système, vouloir contourner les délais de probationen remplaçant un nom existant par un autre nom, mentir à propos de son décès, .</span>
+                              <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                            </span>
+                          </span>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587038092018">
+                    <span class="fontstyle0" data-original-title="" title="" aria-describedby="tooltip601352">Que se passe-t-il si un membre en règle, qui a choisi l’option 2 décède dans son pays d’origine </span>
+                    <span class="fontstyle2">?</span>
+                    <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                  </a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587038092018">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0">
+                          <span class="fontstyle0">
+                            <span class="fontstyle0">
+                              <span class="fontstyle0">On remet la somme de 8000 euros à son ou ses bénéficiaires.</span>
+                              <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                            </span>
+                          </span>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587038090425">
+                    <span class="fontstyle0">Est-ce que NR pense travailler avec des collaborateurs de différentes communautés </span>
+                    <span class="fontstyle2">?</span>
+                    <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                  </a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587038090425">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0">Oui, Noble Retour est une association créée pour toutes les diasporas, et ce, sans distinction de pays d’origine. Par conséquent, elle aura besoin de collaborateurs, partenaires de différentes communautés pour mieux travailler et proposer des services dans lesquelles toutes les communautés s’y retrouveront</span>
+                        <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                        <br/>
+                        <span class="fontstyle0">
+                          <span class="fontstyle0">
+                            <span class="fontstyle0">
+                              <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                            </span>
+                          </span>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587038088808">
+                    <span class="fontstyle0">Que se passe-t-il si un membre décède dans un pays différent de son pays de résidence </span>
+                    <span class="fontstyle2">?</span>
+                    <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                  </a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587038088808">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0">Noble Retour s’occupe du rapatriement de la dépouille du lieu de décès vers le pays d’origine, tant que les frais de rapatriement n’excèdent pas la somme maximale allouée à l’aide au rapatriement. S’il s’avère que les frais de rapatriement sont supérieurs au montant de l’aide, la famille devra prendre en charge le reliquat ou il lui sera remis la somme de 8000 euros.</span>
+                        <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587038087369">
+                    <span class="fontstyle0">Que se passe-t-il si la famille veut des prestations complémentaires&amp;nbsp;</span>
+                    <span class="fontstyle2" data-original-title="" title="" aria-describedby="tooltip749049"/>
+                  </a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587038087369">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0">
+                          <span class="fontstyle0">
+                            <span class="fontstyle0">
+                              <span class="fontstyle0">Ces prestations seront en charge de la famille</span>
+                              <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                            </span>
+                          </span>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-white">
+                  <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="card-header collapsed" data-parent="#myCollapse" data-original-title="" title="" aria-describedby="tooltip460959" data-target="#myCollapseTab1587038085594">
+                    <span class="fontstyle0" data-original-title="" title="" aria-describedby="tooltip921715">Ai-je besoin de cette protection communautaire alors que j'ai déjà une assurance-vie ?</span>
+                    <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                  </a>
+                  <div class="collapse" role="tabpanel" style="" id="myCollapseTab1587038085594">
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: justify;">
+                        <span class="fontstyle0">
+                          <span class="fontstyle0">
+                            <span class="fontstyle0">
+                              <span class="fontstyle0">Bien sûr que si car, l’assurance-vie sert à assumer nos responsabilités auprès de nos enfants, notre épouse et époux après notre décès. Vous êtes sans ignorer la charge financière qui incombe à la veuve ou au veuf quand nous décédons. Par ailleurs, l’aide que Noble Retour garantit à ses adhérents s’opère rapidement alors que la prestation de l’assurance-vie peut prendre du temps. Or, la famille a besoin de cette aide le plus rapidement possible pour faire face aux dépenses imminentes</span>
+                              <br style=" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; "/>
+                            </span>
+                          </span>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+	
+	</t>
+</template>
+
+<record id="grpd_page" model="website.page">
+        <field name="website_published">True</field>
+        <field name="url">/faq</field>
+        <field name="view_id" ref="faq"/>
+    </record>
+
+</odoo>

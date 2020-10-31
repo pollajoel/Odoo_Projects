@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="confidentialite"> 
+
+    <t t-call="website.layout">
+	<div id="wrap" class="oe_structure oe_empty">
+	
+	
+	<section class="s_cover parallax pt96 pb24 s_parallax_no_overflow_hidden" data-scroll-background-ratio="0" style="background-image: none;">
+        <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url(&quot;/dummy_theme/static/images/faqs/banner.jpeg&quot;); background-position: 50% 50%;"/>
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title" data-name="Title">
+              <h1 class="s_title_thin" style="font-size: 62px; text-align: center;">
+                <font style="color: rgb(255, 255, 255);">Déclaration sur la vie privée</font>
+                <br/>
+              </h1>
+            </div>
+            <div class="s_text pt16 pb16 offset-lg-2 col-lg-9" data-name="Text">
+              <p class="lead" style="text-align: center;color:#fff;">
+			  <!--
+                En faisant un don à Noble Retour asbl, vous nous permettez de soulager davantage les familles tout en étant encore plus efficace
+				-->
+			 </p>
+            </div>
+          </div>
+        </div>
+      </section>
+	 
+	  </div>
+	  
+	  
+	  
+	  <section class="oe_structure oe_empty">
+	  <div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+<br/>
+ARTICLE 1er – GÉNÉRALITÉS<br/>
+<b>1.1 NOBLE RETOUR ASBL respecte votre vie privée</b>
+<p style="text-align:justify;">
+Noble Retour asbl attache beaucoup d'importance à votre vie privée et souhaite traiter vos
+données à caractère personnel de manière légale, honnête et transparente. Nous manipulons
+vos données en parfaite conformité avec la législation et la réglementation en vigueur, et
+notamment avec le Règlement général sur la protection des données. La présente déclaration
+relative à la vie privée expose la manière dont NOBLE RETOUR ASBL traite les données à
+caractère personnel qui vous concernent. Elle s'applique à toutes les données personnelles
+traitées par NOBLE RETOUR ASBL. Il peut s'agir de données à caractère personnel qui vous
+concernent en tant que membre mais aussi en tant que bénéficiaire, intermédiaire
+d'assurances, partenaires, visiteur de nos sites web, candidat à une offre d'emploi, fournisseur,
+etc.</p>
+<b>1.2 Qui est NOBLE RETOUR ASBL?</b><br/>
+<p style="text-align:justify;">
+NOBLE RETOUR ASBL est une association sans but lucratif sis au 18 Rue Fouche 6060
+Charleroi, enregistrée à la Banque Carrefour des Entreprises au numéro BE0 733 755 708.<br/>
+<b>Elle a pour missions :</b><br/>
+<ul>
+<li>D’informer les populations sur les questions liées aux rapatriements funéraires.</li>
+<li>Fournir une solution SIMPLE, EFFICACE et DÉMOCRATIQUE aux problèmes
+financiers posés par le décès d’un membre du réseau.</li>
+<li>Permettre à ses membres de bénéficier d’un RETOUR DIGNE vers la terre mère, en
+cas de décès.</li>
+<li>Permettre aux familles de faire leur deuil sereinement en assurant la PRISE EN
+CHARGE ADMINISTRATIVE liée au rapatriement.</li>
+</ul><br/>
+NOBLE RETOUR ASBL travaille à cet effet avec des spécialistes du domaine funéraire pour
+vous assurer les services qu’elle propose.</p>
+<p>
+<b>
+1.3 Qu'est-ce qu'une donnée à caractère personnel et qu'entend-on par traitement de
+données à caractère personnel ?</b><br/>
+Une donnée à caractère personnel est toute information concernant une personne physique
+identifiée ou identifiable. Il peut s'agir du nom et des coordonnées de cette personne, de sa
+date de naissance, d'une photo et de toute autre information qui est ou peut être reliée à cette
+personne physique. Par exemple, une adresse électronique, un numéro de téléphone (y
+compris le numéro de téléphone professionnel), un numéro de police ou un code de
+connexion.
+Par traitement des données à caractère personnel, on entend toute opération ou tout ensemble
+d'opérations appliquées à des données à caractère personnel. Ces opérations sont très variées
+et se rapportent notamment à la collecte, à la conservation, à l'utilisation, à la modification et
+à la communication de ces données, jusqu'à leur destruction.<br/>
+
+<b>1.4 Qui est responsable du traitement de vos données à caractère personnel ?</b><br/>
+NOBLE RETOUR ASBL est responsable du traitement de vos données à caractère personnel
+dans le processus de l’aide au rapatriement. NOBLE RETOUR ASBL est responsable du
+traitement de vos données à caractère personnel dans le domaine de l'organisation du
+rapatriement des dépouilles de ses membres.<br/>
+<b>ARTICLE 2 : QUELS SONT VOS DROITS EN MATIÈRE DE PROTECTION DE VOS DONNÉES À CARACTÈRE PERSONNEL ?</b><br/>
+Vous avez toujours le droit de consulter, corriger, limiter ou supprimer vos données à
+caractère personnel. Vous avez également le droit de contester le traitement de ces données, et
+de les transférer à tout moment. Nous répondrons à votre requête, à condition qu'elle soit
+fondée et raisonnable.
+Vous pouvez vous opposer à toute utilisation de vos données à caractère personnel à des fins
+de marketing direct.
+Si vous avez donné votre autorisation explicite (quant au traitement de vos données
+médicales, à l'utilisation de vos données à des fins de marketing direct, etc.), vous avez
+également le droit de la retirer. Les mesures prises par NOBLE RETOUR ASBL avant le
+retrait de votre autorisation resteront valables.
+Enfin, vous avez toujours le droit de déposer une plainte auprès de l'Autorité de protection des
+données (voir www.autoriteprotectiondonnees.be - rue de la Presse 35 à 1000 Bruxelles - +32
+(0)2 274 48 00).
+Si vous souhaitez exercer l'un de ces droits, nous vous prions de nous signaler votre demande
+avec un maximum de précisions. NOBLE RETOUR ASBL doit, en effet, pouvoir vous
+identifier afin d'être certaine qu'il s'agit bien de vous et non d'une tierce personne essayant de
+se faire passer pour vous. C'est la raison pour laquelle nous demanderons toujours une copie
+d'une pièce d'identité valide. Nous sommes joignables par e-mail à l'adresse info@nobleretour.org ou par courrier à l'adresse suivante : 18 Rue Fouche - 6060 Charleroi.
+<br/><b>ARTICLE 3 : POUR QUELS MOTIFS UTILISONS-NOUS VOS DONNÉES À CARACTÈRE PERSONNEL ?</b>
+Nous traitons uniquement vos données personnelles si l'une des conditions suivantes est
+remplie.<br/>
+<b>3.1 Le traitement est nécessaire pour l’inscription de chaque futur membre
+Ainsi, NOBLE RETOUR ASBL utilise notamment vos données pour :</b>
+<ul>
+<li>Évaluer si et à quelles conditions votre demande d’inscription est acceptable ;</li>
+<li> Respecter nos statuts et règlement d’ordre intérieur</li>
+<li>Pouvoir verser l’aide au rapatriement ;</li>
+<li>Clôturer votre dossier de rapatriement de dépouille ;</li>
+<li>Exécuter le contrat de rapatriement</li>
+<li>Exécuter les contrats conclus avec les partenairesPage </li>
+</ul>
+<b>
+3.2 Le traitement est nécessaire au respect des obligations légales
+Il s’agit notamment des lois et réglementations suivantes :</b>
+<ul>
+<li> Les obligations légales dans le cadre de la lutte contre le blanchiment et contre le
+terrorisme ;</li>
+<li>La législation relative au traitement comptable des opérations </li>
+<li>La législation relative aux obligations de rapport aux autorités administratives ;</li>
+<li>La législation relative à la gestion des risques ;</li>
+<li> La législation relative au traitement des réclamations ;</li>
+<li>La législation relative aux obligations de rapport aux autorités de contrôle, notamment
+à la BNB (Banque nationale de Belgique) et à l'Autorité de protection des données ;</li>
+<li>La législation fiscale ;</li>
+<li> La rrèglementation relative à l'obligation de répondre aux demandes des autorités
+judiciaires (police, parquet, etc.) ;</li>
+</ul>
+<b>3.3 Le traitement est nécessaire à la sauvegarde de nos intérêts légitimes
+Vos données à caractère personnel sont notamment traitées afin de :</b><br/>
+<ul>
+<li> Réaliser des études, des statistiques et des modèles (de risque, marketing et autres) ;</li>
+<li> Créer des synergies, des gains d'efficacité et d'autres avantages organisationnels ou
+fondés sur des processus ;</li>
+<li> Permettre l'exercice et la défense des droits de NOBLE RETOUR ASBL, par exemple
+en cas de litiges ;</li>
+<li>Assurer ou contribuer à la gestion des membres et des associations ;</li>
+<li>Assurer la gestion et l'amélioration du site web www.noble-retour.org, notamment que
+NOBLE RETOUR ASBL puisse répondre au mieux à vos questions concernant ce site
+web ;</li>
+<li> Permettre la réorganisation ou la cession totale ou partielle d'activités dès lors que
+NOBLE RETOUR ASBL réorganise ou cède ses activités commerciales. Dans ce cas,
+vos données sont susceptibles d'être cédées à de nouvelles entités ou à des tiers
+exerçant partiellement ou intégralement les activités commerciales de NOBLE
+RETOUR ASBL</li>
+<li>Assurer la sécurité de l'entreprise (enregistrements de caméras et autres mesures dans
+le cadre de la détection des risques cybernétiques et de la lutte contre ceux-ci) ;</li>
+<li> Réaliser des enregistrements à des fins de formation (enregistrements d'entretiens par
+chat et par téléphone) ;</li>
+<li> Publier le faire-part de décès ou l'image souvenir sur le site internet;</li>
+<li> Mettre en place un fichier de prospects.</li>
+</ul>
+<b>3.4 Le traitement repose sur votre autorisation
+Notamment dans les cadres suivants :</b><br/>
+<ul>
+	<li>Le traitement de vos données médicales ;</li>
+	<li>L'analyse de votre comportement de navigation sur notre site web. Nous utilisons
+	votre adresse IP et votre comportement de navigation pour établir un lien entre votre
+	visite et vos préférences et pour vous envoyer, ainsi, des messages ciblés ;</li>
+	<li>Le marketing direct, pour autant que votre autorisation soit requise (par exemple la
+	fourniture d'un produit ou service unique de NOBLE RETOUR ASBL si vous n'êtes
+	pas encore membre)</li>
+	<li> L’enregistrement de votre C.V. et de votre évaluation éventuelle pour la création d'une
+réserve de recrutement.</li>
+</ul><br/>
+
+<b>ARTICLE 4 : POURQUOI TRAITONS-NOUS VOS DONNÉES À
+CARACTÈRE PERSONNEL ?</b><br/>
+NOBLE RETOUR ASBL collecte et traite vos données à caractère personnel en vue de divers
+objectifs. NOBLE RETOUR ASBL traitera exclusivement les données pertinentes en fonction
+de l'objectif poursuivi.<br/>
+<b>4.1 À quelles fins vos données à caractère personnel sont-elles traitées ?
+Vos données sont traitées aux fins suivantes :</b>
+<ul>
+<li>Pour pouvoir vous identifier, vous contacter, vous conseiller et vous envoyer des
+informations ;</li>
+<li>Pour évaluer si et à quelles conditions devenir membre;</li>
+<li>Pour fournir des services relatifs au rapatriement de corps via un maître d’oeuvre;</li>
+<li>Pour étoffer la base de données de nos membres et gérer nos relations avec nos
+membres;</li>
+<li>Pour lutter contre la fraude ;</li>
+<li>Pour pouvoir respecter la législation en vigueur (notamment les obligations
+comptables, les obligations fiscales et les obligations en matière de lutte contre le
+blanchiment) ;</li>
+<li>Pour pouvoir effectuer les contrôles nécessaires (notamment dans le cadre de la
+détection et de la prévention de la fraude) ;</li>
+<li>Pour pouvoir traiter les réclamations/les compliments ;</li>
+<li>Pour aligner l'offre de NOBLE RETOUR ASBL sur les besoins de ses membres ce qui
+implique que NOBLE RETOUR ASBL est susceptible d'analyser vos données à
+caractère personnel ;</li>
+<li>Pour optimiser nostre site web ;</li>
+<li>Pour le suivi de la qualité</li>
+<li> Pour pouvoir payer les biens ou les services fournis.</li>
+</ul>
+<b>4.3 Par quels autres biais obtenons-nous vos données à caractère personnel ?</b><br/>
+NOBLE RETOUR ASBL traite parfois des données personnelles publiques, c’est-à-dire des
+données à caractère personnel qui sont disponibles publiquement. Il s'agit par exemple de
+publications au Moniteur belge, de données à caractère personnel que vous avez vous-même
+mises à disposition via une source publique (réseaux sociaux), etc. NOBLE RETOUR ASBL
+peut également recevoir vos données à caractère personnel d'une personne ou instance autre
+que vous-même. C'est notamment le cas lorsque vous figurez comme bénéficiaire dans un
+contrat d'assurances. Dans le cadre de nos actions de marketing (direct), nous pouvons aussi
+acheter vos données à des entreprises responsables de la collecte légale de vos données
+<br/>
+<b>ARTICLE 5 : COMMENT GÉRONS-NOUS VOS DONNÉES MÉDICALES ?</b><br/>
+En votre qualité de membre adhérent, NOBLE RETOUR ASBL est susceptible de vous
+demander de fournir un certain nombre de données médicales. Nous avons besoin de votre
+autorisation explicite pour le traitement de ces données.<br/>
+<b>5.1 Pourquoi demandons-nous vos données médicales ?</b><br/>
+Nous pouvons demander vos données médicales durant le processus d’inscription des
+membres, pendant la mise à jour annuelle. Les données médicales sont traitées dans le carde
+de l’évaluation de la cotisation des membres, afin d’aider à la famille du membre décédé, afin
+de vérifier à votre décès si l'état de santé renseigné au moment de l’inscription était véridique
+et afin de régler d'éventuels litiges.<br/>
+<b>5.2 Qui d'autre a accès à vos données médicales ?</b>
+Seules les personnes qui, au sein de NOBLE RETOUR ASBL sont en charge du processus
+relatif à vos données médicales ont accès à ces données. Outre cela, vos données médicales
+sont fournies exclusivement aux personnes qui doivent prendre connaissance de ces données
+dans le cadre d'un litige (un avocat par exemple) et aux autres personnes qui doivent
+nécessairement avoir accès à vos données médicales.<br/>
+<b>5.3 Autorisation et retrait d'autorisation</b><br/>
+Nous avons besoin de votre autorisation explicite pour le traitement de vos données
+médicales. En tant que membre, vous avez le droit de retirer votre autorisation explicite. Ce
+retrait peut vous mener à la perte d’un ou de toutes les aides proposées par l’association.
+Vous pouvez retirer votre autorisation en nous adressant une notification écrite, dûment
+signée et datée, par e-mail info@noble-retour.org ou par courrier postal (18 Rue Fouche ,
+6060 Charleroi), accompagnée d'une copie de votre carte d'identité ou passeport ou acte de
+naissance, à titre d'identification.<br/>
+<b>ARTICLE 6 : COMMENT NOBLE RETOUR ASBL PROTÈGE-T-ELLE
+VOS DONNÉES À CARACTÈRE PERSONNEL ?</b><br/>
+NOBLE RETOUR ASBL a pris des mesures techniques et organisationnelles adéquates pour
+protéger vos données à caractère personnel contre toute perte ou contre toute forme de
+traitement illégal.
+NOBLE RETOUR ASBL a défini une politique de sécurité de l’information et a pris des
+mesures électroniques et physiques en conséquence.<br/>
+<b>ARTICLE 7 : QUI D'AUTRE REÇOIT VOS DONNÉES À CARACTÈRE
+PERSONNEL ?</b><br/>
+7.1 Transmission
+Nous pouvons transmettre vos données à caractère personnel à toutes les entités juridiques qui
+travaillent pour NOBLE RETOUR ASBL, ou qui font parties d’une asbl dans laquelle NR est
+inscrite, aux ambassades d’origine de chaque membre, aux entreprises qui ont signées un
+partenariat ou contrat avec NR asbl.
+Cet échange se fait dans le cadre de l’exécution de nos statuts et règlement d’ordre intérieur.
+Vos données à caractère personnel peuvent être échangées à des fins de marketing (direct) , y
+compris avec les sociétés avec lesquelles vous n'avez pas encore établi de contacts ou de
+relation contractuelle. Comme mentionné ci-dessus, vous avez évidemment le droit de
+contester la transmission de vos données.
+<b><br/>
+Nous partageons vos données à caractère personnel avec d'autres organisations dans trois
+situations :</b><br/>
+<ul>
+<li>Si cela s'avère nécessaire à l'exécution de nos missions dans lequel vous êtes
+nécessairement impliqué(e) ;</li>
+<li> Pour satisfaire à nos obligations légales (sur le plan fiscal par exemple) ;</li>
+<li> Si nous avons un intérêt légitime à partager ces données.</li>
+</ul>
+<br/>
+<b>
+7.2 NOBLE RETOUR ASBL ne vend ni n'exploite vos données personnelles à des fins
+commerciales par le biais de tiers</b><br/>
+NOBLE RETOUR ASBL ne vendra, ni ne louera, ni ne distribuera vos données à caractère
+personnel, ni ne les mettra commercialement à la disposition de tiers de manière différente
+que celles décrites dans la présente déclaration relative à la vie privée ou à moins d'avoir
+obtenu votre autorisation préalable.<br/>
+<b>ARTICLE 8 : PENDANT COMBIEN DE TEMPS CONSERVONS-NOUS
+VOS DONNÉES À CARACTÈRE PERSONNEL ?</b>
+NOBLE RETOUR ASBL ne conservera pas vos données à caractère personnel plus
+longtemps que la durée nécessaire aux fins pour lesquelles elles sont collectées et, dans tous
+les cas, aussi longtemps que la réglementation spécifique l’exige, notamment eu égard aux
+délais de prescription légaux (certaines actions des assurances-vie sont prescrites pendant 30
+ans).<br/>
+<b>ARTICLE 9 : COORDONNÉES DE NOBLE REOUR ASBL ET
+INFORMATIONS COMPLÉMENTAIRES</b><br/>
+<b>
+Nous vous invitons à adresser vos requêtes ou questions relatives à la protection de la vie
+privée à l'adresse suivante :</b>
+NOBLE RETOUR ASBL
+À l’att. Noble retour asbl
+18 Rue Fouche
+6060 Charleroi
+Ou par e-mail à l'adresse info@noble-retour.org.
+Vous avez également le droit de déposer une plainte concernant l'utilisation de vos données à
+caractère personnel auprès de l'Autorité de protection des données
+(www.autoriteprotectiondonnees.be).<br/>
+<b>ARTICLE 10 : MODIFICATIONS</b><br/>
+NR asbl est en droit de modifier la présente déclaration relative à la vie privée. La version la
+plus récente est consultable à tout moment en suivant ce lien : https://www.nobleretour.org/fr/mentions-legales/declaration-vie-privee. Si vous souhaitez plus d'informations
+sur la protection de la vie privée en général, nous vous invitons à consulter le site web de
+l'Autorité belge de protection des données (voir www.autoriteprotectiondonnees.be).
+Copyright 06/03/2020 NOBLE RETOUR ASBL
+</p>			
+			
+			</div>
+			</div>
+		</div>
+	  </section>
+	  
+	  
+	  
+	  
+	</t>
+</template>
+
+<record id="confidentialite_page" model="website.page">
+        <field name="website_published">True</field>
+        <field name="url">/confidentialite</field>
+        <field name="view_id" ref="confidentialite"/>
+</record>
+
+</odoo>

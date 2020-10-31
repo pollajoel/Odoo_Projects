@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="accueil"> 
+
+    <t t-call="website.layout">
+	
+	
+	
+	
+	<div id="carouselExampleIndicators" class="carousel slide" data-interval="5000" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="banner" style="background-image:url('/dummy_theme/static/images/homeslider/homeslider.jpeg')"></div>
+			<div class="carousel-caption d-none d-md-block">
+					<h5 class="animated slideIndown" style="animation-delay:1s;" id="colorz">NOBLE RETOUR</h5>
+					<h3  class="display-2 animated fadeInup" style="animation-delay:2s;animation-delay: 2s;font-size: large;color: #fff;">Le premier Partenaire pour votre Dernier voyage</h3>
+					 <p><a href="/adhesion" class="animated zoomIn rounded-circle rounded-circle rounded-circle rounded-circle rounded-circle btn btn-primary rounded-circle btn-lg" data-original-title="" title="" style="animation-delay:2s;">J'adhère</a>&amp;nbsp;<a href="/web/login" class="animated fadeInLeft rounded-circle rounded-circle rounded-circle btn btn-outline-primary rounded-circle btn-lg" data-original-title="" title="" aria-describedby="tooltip193560" style="background: #cd2c00;color: #fff;border: 0px;animation-delay:2s;">Mon compte</a></p>
+			</div>
+    </div>
+	
+    <div class="carousel-item">
+     <div class="banner animated zoomIn" style="background-image:url('/dummy_theme/static/images/homeslider/projet4.jpeg');"></div>
+	  
+	  <div class="carousel-caption d-none d-md-block">
+				<div class="carousel-caption d-none d-md-block">
+					<h5 class="animated slideIndown" style="animation-delay:1s;" id="colorz">Un Réseau d'aide au rapatriement</h5>
+					<h3  class="display-2 animated fadeInup" style="animation-delay:2s;animation-delay: 2s;font-size: large;color: #fff;">qui permet à votre famille de faire le deuil séreinement</h3>
+					 <p><a href="/a-propos" class="animated zoomIn rounded-circle rounded-circle rounded-circle rounded-circle rounded-circle btn btn-primary rounded-circle btn-lg" data-original-title="" title="" style="animation-delay:2s;">Qui sommes nous?</a>&amp;nbsp;<a href="/contact" class="animated fadeInLeft rounded-circle rounded-circle rounded-circle btn btn-outline-primary rounded-circle btn-lg" data-original-title="" title="" aria-describedby="tooltip193560" style="background: #cd2c00;color: #fff;border: 0px;animation-delay:2s;">Contactez nous?</a></p>
+			</div>
+				
+				
+			</div>
+    </div>
+	
+    <div class="carousel-item">
+    <div class="banner" style="background-image:url('/dummy_theme/static/images/homeslider/slider2.jpeg');"></div>  
+	  <div class="carousel-caption d-none d-md-block">
+			<h5 class="animated slideIndown" style="animation-delay:1s;" id="colorz">Un Réseau d'aide au rapatriement</h5>
+					<h3  class="display-2 animated fadeInup" style="animation-delay:2s;animation-delay: 2s;font-size: large;color: #fff;">qui préserve vos proches</h3>
+					 <p><a href="/faq" class="animated zoomIn rounded-circle rounded-circle rounded-circle rounded-circle rounded-circle btn btn-primary rounded-circle btn-lg" data-original-title="" title="" style="animation-delay:2s;">Comment ça marche?</a>&amp;nbsp;<a href="/faire-un-don" class="animated fadeInLeft rounded-circle rounded-circle rounded-circle btn btn-outline-primary rounded-circle btn-lg" data-original-title="" title="" aria-describedby="tooltip193560" style="background: #cd2c00;color: #fff;border: 0px;animation-delay:2s;">Faire un don?</a></p>
+					
+					
+	  </div>
+	
+    </div>
+	
+	
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+   <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+	
+	
+	
+	
+	
+      <section class="s_text_image pt32 pb32">
+        <div class="container">
+          <div class="row align-items-start">
+            <div class="col-lg-6 pt16 pb16">
+              <img src="/dummy_theme/static/images/home images/apropos.jpeg" class="img img-fluid mx-auto" alt="Odoo • Image et Texte" data-original-title="" title="" aria-describedby="tooltip797376"/>
+            </div>
+            <div class="col-lg-6 pt16 pb16">
+              <h2>
+                <font style="font-size: 36px;text-transform:uppercase;">A propos du réseau nr</font>
+                <br/>
+              </h2>
+              <p style="text-align:justify;font-size:16px;">L’Asbl NOBLE RETOUR est une association de droit belge, enregistrée auprès de la Banque Carrefour des Entreprises depuis le 5 Septembre 2019</p>
+              <section class="pt8"> 
+                <div style="font-size:16px;">
+                  <p style="text-align:justify;"> Elle a été créée pour répondre à un besoin criard de rapatriement des corps dans la dignité humaine. L’ Association naît d’un constat, ainsi que d’un sentiment d’impuissance, de tristesse et surtout de beaucoup de douleur suite au décès d’un être cher . </p>
+                  <div class="s_btn pb16 pt0 text-left" data-name="Buttons">
+                    <a href="/a-propos" class="btn btn-primary rounded-circle btn-lg" data-original-title="" title="" aria-describedby="tooltip723565" style="background-color: #fe7e2e;">Qui sommes-nous?</a>
+                  </div>
+                </div>
+              </section>
+              <p>&amp;nbsp;</p>
+            </div>
+          </div>
+        </div>
+      </section>
+	
+
+
+
+<section  style="padding-top:20px;padding-bottom:20px;background-image:url('/dummy_theme/static/images/home images/video.jpeg');color:#ffffff;animation-delay:4s;">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-8">
+                  <img src="/dummy_theme/static/images/home images/notremission.jpeg" class="img-fluid"/>
+                </div>
+                <div class="col-sm-4">
+                  <img src="/dummy_theme/static/images/home images/home-about-3.jpg" class="img-fluid"/>
+                  <img src="/dummy_theme/static/images/home images/home-about-3.jpg" class="img-fluid" style="margin-top:33px;"/>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6" style="padding-top: 70px;">
+            <div class="heading-block">
+              <h2>
+                <b>
+                  <font style="font-size: 36px;text-transform:uppercase;">NOTRE MISSION</font>
+                </b>
+              </h2>
+            </div>
+			<!--
+            <p class="lead">
+              <b>
+                <font style="color: rgb(255, 130, 25); font-size: 24px;"></font>
+              </b>
+            </p> -->
+            <ul>
+              <li>
+                <p>
+                <font style="font-size: 16px;">Permettre un retour digne vers la terre mère</font>
+				</p>
+              </li>
+              <li>
+                <p>
+                  <font style="font-size: 16px;">Permettre aux familles de faire leur deuil sereinement</font>
+                
+                </p>
+              </li>
+              <li>
+                <p>
+				   <font style="font-size: 16px;">Informer sur les questions liées aux rapatriements funéraires.</font>
+				 </p>
+			     </li>
+				 
+				 <li>
+				 <p>
+				 <font style="font-size: 16px;">Fournir une solution simple, efficace et démocratique aux problèmes posés par le décès d’un membre du réseau.</font>
+                </p>
+              </li>
+			  
+            </ul>
+            <p>
+              <br/>
+            </p>
+            <div class="mt-3"><a href="/je-mengage" class="rounded-circle rounded-circle rounded-circle rounded-circle rounded-circle btn btn-primary rounded-circle btn-lg" data-original-title="" title="">je m'engage</a>&amp;nbsp;<a href="/notre-projet" class="rounded-circle rounded-circle rounded-circle btn btn-outline-primary rounded-circle btn-lg" data-original-title="" title="" aria-describedby="tooltip193560">Notre projet</a></div>
+          </div>
+        </div>
+      </div>
+    </section>				
+	
+	
+	
+<section class="oe_snippet_body s_video">
+                <div class="w-100">
+                    <div class="st-video">
+                        <div class="video_container w-100">
+                            <div class="st_title">
+                                <div class="st-heading-a">
+                                    <h3 class="text-center small">Noble Retour le premier</h3>
+                                    <h3 class="text-center">
+                                        <span class="strong"> partenaire</span>
+                                        de votre dernier voyage
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="text-center oe_cu_pos_rel">
+                                <img class="oe_cu_video_img oe_cu_pos_rel"
+                                     src="/sync_uppercrust_theme/static/src/img/video.png" data-toggle="video_img"/>
+                                <a href="#video_modal" data-url="https://www.youtube.com/v/0GUxV85DDm4"
+                                   id="video_link" data-toggle="modal">
+                                    <img class="oe_cu_play_ico" src="/sync_uppercrust_theme/static/src/img/play.png"/>
+                                </a>
+
+                            </div>
+                            <div id="video_modal" class="modal fade">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <button type="button" class="close" data-dismiss="modal">&amp;times;
+                                            </button>
+                                            <embed id="inlineVideo" src="https://www.youtube.com/v/0GUxV85DDm4"
+                                                   type="application/x-shockwave-flash" width="680" height="490"
+                                                   wmode="transparent" allowfullscreen="true"
+                                                   allowscriptaccess="always"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</section>
+	
+	
+	
+	
+	
+	
+<div class="site-section block-13 bg-200">
+      <!-- <div class="container"></div> -->
+	  
+	  <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center border-primary">
+		  <h2>
+             <font style="font-size: 36px;">Nos services</font>
+		  </h2>
+		    <!--
+            <p class="color-black-opacity-5">Lorem ipsum dolor sit amet.</p> -->
+          </div>
+        </div>
+
+
+      <div class="owl-carousel nonloop-block-13">
+        <div>
+          <a href="/a-propos" class="unit-1 text-center">
+            <img src="/dummy_theme/static/img/administration.jpg" alt="Image" class="img-fluid"/>
+            <div class="unit-1-text">
+              <h3 class="unit-1-heading">Formalités administratives</h3>
+              <p class="px-5" style="color:#fff;">en étroite collaboration avec la famille, il s’agit de déclaration de décès</p>
+			  </div>
+          </a>
+        </div>
+
+        <div>
+          <a href="/a-propos" class="unit-1 text-center">
+            <img src="/dummy_theme/static/img/img_2.jpg" alt="Image" class="img-fluid"/>
+            <div class="unit-1-text">
+              <h3 class="unit-1-heading">Transport</h3>
+              <p class="px-5" style="color:#fff;">le transfert de la dépouille du lieu de décès (territoire Belge) vers Brussels </p>
+            </div>
+          </a>
+        </div>
+
+        <div>
+          <a href="/a-propos" class="unit-1 text-center">
+            <img src="/dummy_theme/static/img/cercueil.jpg" alt="Image" class="img-fluid"/>
+            <div class="unit-1-text">
+              <h3 class="unit-1-heading">Cercueil de rapatriement</h3>
+              <p class="px-5" style="color:#fff;">Fermeture hermétique, plaque nominative, emballage aérien Traitement...</p>
+            </div>
+          </a>
+        </div>
+
+        <div>
+          <a href="/a-propos" class="unit-1 text-center">
+            <img src="/dummy_theme/static/img/option1.jpeg" alt="Image" class="img-fluid"/>
+            <div class="unit-1-text">
+              <h3 class="unit-1-heading">Option 1</h3>
+              <p class="px-5" style="color:#fff;">Versement d’une somme maximale de 8000 euros au.x bénéficiaires... </p>
+            </div>
+          </a>
+        </div>
+
+        <div>
+          <a href="/a-propos" class="unit-1 text-center">
+            <img src="/dummy_theme/static/img/img_1.jpg" alt="Image" class="img-fluid"/>
+            <div class="unit-1-text">
+              <h3 class="unit-1-heading">Option 2</h3>
+              <p class="px-5" style="color:#fff;">Rapatriement du corps du lieu de décès vers le pays d’origine, par voie aérienne ou routière.</p>
+            </div>
+          </a>
+        </div>
+		
+		
+		<div>
+          <a href="/a-propos" class="unit-1 text-center">
+            <img src="/dummy_theme/static/img/ticket.jpg" alt="Image" class="img-fluid"/>
+            <div class="unit-1-text">
+              <h3 class="unit-1-heading">l’offre d’un ticket accompagnateur</h3>
+              <p class="px-5" style="color:#fff;">un billet d’avion aller-retour pour un membre de la famille est pris en charge.</p>
+            </div>
+          </a>
+        </div>
+
+
+      </div>
+ </div>
+ 
+	
+
+
+
+	<!--
+
+	              <section class="oe_snippet_body s_video">
+                
+				 <iframe width="100%" height="400px"
+					src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+				</iframe> 
+				
+				
+					</section>
+		-->
+			
+			
+			
+					
+					
+	
+			
+			
+	  
+	  
+	 
+	  
+	  
+	  
+	  
+	  <!--
+	   <section class="s_call_to_action  pt48 pb24" style="margin-top:-6px;background-image:url('/dummy_theme/static/images/homeslider/homeslider.jpeg');background-size: cover;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 pb0" style="color:#fff;">
+            <h3 style="color:#fff;">
+              <b>
+                <font style="font-size: 36px;">Le réseau nr</font>
+              </b>
+              <font style="font-size: 36px;">&amp;nbsp;assure le rapatriement en terre natale.</font>
+            </h3>
+            <p class="lead">Selon vos dernières volontés.<br/></p>
+          </div>
+          <div class="col-lg-3 s_btn text-right pt8 pb24">
+            <a href="/" class="btn btn-primary btn-lg" data-original-title="" title="" aria-describedby="tooltip46613">
+                <span data-original-title="" title="" aria-describedby="tooltip928206">ADHERER</span>
+                <i class="fa fa-1x fa-fw fa-arrow-circle-right ml-1"/>
+              </a>
+			
+          </div>
+        </div>
+      </div>   
+    </section>
+	  -->
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+		
+		
+		
+		
+		
+		
+		
+    </t>
+
+</template>
+
+
+
+
+
+<!-- footer copyright -->
+<template id="layout_footer_copyrighti" inherit_id="website.layout_footer_copyright">
+            <xpath expr="//div[hasclass('o_footer_copyright')]" position="replace">
+                <div class="o_footer_copyright" style="background:#706456;">
+                    <div class="last-footer d-flex" style="background:#706456;">
+                        <div class="col-sm-8 text-muted text-left" style="font-size: 16px;">
+                            <span style="color:#fff;">Copyright &amp;copy; 2020</span>
+                            <span t-field="res_company.name" itemprop="name" style="color:#fff;">Noble retour</span>
+                            <span style="color:#fff;">tous droits reservés. <b><a href="https://ona-itconsulting.com/" targer="_blank" style="text-decoration: none;color:#fff;"><img src="/dummy_theme/static/img/logo.png" style="width: 34px;"/></a></b></span>
+							<!--
+                            <t t-call="website.language_selector"/>
+                            <span class="divider"/>
+                            <a href="./">Privacy Policynnn</a>
+                            <span class="divider"/>
+                            <a href="./">Terms of Service</a>  -->
+                        </div>
+                        <div class="col-sm-4 text-right o_not_editable" t-if="not editable">
+                           <!--                           
+						   <t t-call="website.brand_promotion"/>-->
+						  <p></p>
+						   
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+<!-- to add css file in xml file -->
+<template id="dummy_theme_asset" name="website assete for Dummy theme" inherit_id="website.assets_frontend">
+    <xpath expr="." position="inside">
+        
+		<link rel="stylesheet" href="/dummy_theme/static/revolution_slider/assets/css/settings.css"/>
+		
+		
+		
+		<link rel="stylesheet" href="/dummy_theme/static/src/style/custom.css"/>
+		<link rel="stylesheet" href="/dummy_theme/static/src/style/animate.css"/>
+		<link rel="stylesheet" href="/dummy_theme/static/src/style/bootstrap-datepicker.css"/>
+		<link rel="stylesheet" href="/dummy_theme/static/src/style/flaticon/flaticon.css"/>
+		<link rel="stylesheet" href="/dummy_theme/static/src/style/iconnoon/iconmoon.css"/>
+		
+		
+		<link rel="stylesheet" href="/dummy_theme/static/src/style/unitmaster/style.css"/>
+		
+		<link rel="stylesheet" href="/dummy_theme/static/src/style/unitmaster/owl.carousel.min.css"/>
+		<link rel="stylesheet" href="/dummy_theme/static/src/style/unitmaster/owl.theme.default.min.css"/>
+		
+		
+		<link rel="stylesheet" href="/dummy_theme/static/cookies/popup.css"/>
+		 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900|Display+Playfair:200,300,400,700"/> 
+   
+		<link rel="stylesheet" href="/dummy_theme/static/src/style/style.css"/>
+		
+		<script type="text/javascript"  src="/dummy_theme/static/cookies/checkform.js"></script>
+		
+       	 <link rel="stylesheet" href="/dummy_theme/static/src/style/gsdk-bootstrap-wizard.css"/>
+		 <script type="text/javascript"  src="/dummy_theme/static/src/js/bootstrap-datepicker.min.js"></script>
+		 <script type="text/javascript"  src="/dummy_theme/static/src/js/cookies.js"></script>
+		 
+		 
+		 <script type="text/javascript"  src="/dummy_theme/static/js/form.js"></script>
+		 
+		 
+		 
+		 <!--
+		 <script type="text/javascript"  src="/dummy_theme/static/src/js/logisticmaster/aos.js"></script> -->
+		 <script type="text/javascript"  src="/dummy_theme/static/src/js/logisticmaster/jquery.countdown.min.js"></script>
+		 <script type="text/javascript"  src="/dummy_theme/static/src/js/logisticmaster/jquery.magnific-popup.min.js"></script>
+		 <script type="text/javascript"  src="/dummy_theme/static/src/js/logisticmaster/jquery.stellar.min.js"></script>
+		 <script type="text/javascript"  src="/dummy_theme/static/src/js/logisticmaster/jquery-ui.js"></script>
+		 
+		 <!--
+		 <script type="text/javascript"  src="/dummy_theme/static/src/js/logisticmaster/main.js"></script>
+		 
+		 -->
+		 
+		 <script type="text/javascript"  src="/dummy_theme/static/src/js/logisticmaster/mediaelement-and-player.min.js"></script>
+		 <script type="text/javascript"  src="/dummy_theme/static/src/js/logisticmaster/popper.min.js"></script>
+		 <script type="text/javascript"  src="/dummy_theme/static/src/js/logisticmaster/slick.min.js"></script>
+		
+		 
+		 
+		 
+		 
+		
+
+		
+		 
+		 
+		 <script type="text/javascript"  src="/dummy_theme/static/cookies/popup.js"></script>
+		 <script type="text/javascript"  src="/dummy_theme/static/cookies/Grpd.js"></script>
+		  	  
+		 
+
+   </xpath>
+</template>
+
+
+
+
+
+
+<template id="my_header">
+      <t t-name="specificmenu">
+	    <t t-call="website.layout">
+        <xpath expr="//header" position="replace">
+                 
+        </xpath>
+		</t>
+	  </t>
+</template>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<record id="menu_projet" model="website.menu">
+    <field name="name">Notre projet</field>
+    <field name="url">/notre-projet</field>
+    <field name="parent_id" ref="website.main_menu"/>
+    <field name="sequence" type="int">18</field>
+</record>
+
+
+
+
+
+<record id="menu_don" model="website.menu">
+    <field name="name">Faire un don</field>
+    <field name="url">/faire-un-don</field>
+    <field name="parent_id" ref="website.main_menu"/>
+    <field name="sequence" type="int">21</field>
+</record>
+
+
+<record id="menu_jemengage" model="website.menu">
+    <field name="name">Recrutement</field>
+    <field name="url">/je-mengage</field>
+    <field name="parent_id" ref="website.main_menu"/>
+    <field name="sequence" type="int">20</field>
+</record>
+
+
+<record id="menu_acceuil" model="website.menu">
+    <field name="name">accueil</field>
+    <field name="url">/</field>
+    <field name="parent_id" ref="website.main_menu"/>
+    <field name="sequence" type="int">16</field>
+</record>
+
+
+  
+
+
+
+
+<record id="accueil_page" model="website.page">
+        <field name="website_published">True</field>
+        <field name="url">/</field>
+        <field name="view_id" ref="accueil"/>
+</record>
+
+
+<template id="custom_header" name="custom_header">
+	    <t t-call="website.layout">
+		
+			<xpath expr="//div[@id='wrapwrap']/header" position="attributes">
+				<attribute name="id">Headerbar</attribute>
+			</xpath>
+			
+			<!-- Add an element after the top menu  -->
+			<xpath expr="//div[@id='wrapwrap']/header/div" position="after">
+					<div class="container">
+						<div class="alert alert-info mt16" role="alert">
+							<strong>Welcome</strong> in our website!
+						</div>
+					</div>
+			</xpath>
+
+		</t>
+</template>
+
+
+
+
+
+
+
+
+
+
+</odoo>

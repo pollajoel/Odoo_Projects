@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="contact"> 
+
+    <t t-call="website.layout">
+	
+	<section class="s_cover parallax  pb24 s_parallax_no_overflow_hidden" data-scroll-background-ratio="0" style="background-image: none;">
+        
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.8151073962076!2d4.472561915730514!3d50.425916379472014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2262711d35d7d%3A0xe116f961e4bd48c1!2sRue%20Fouche%2018%2C%206060%20Charleroi%2C%20Belgium!5e0!3m2!1sen!2scm!4v1587131447544!5m2!1sen!2scm" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		
+		
+      </section>
+	  
+	  
+	
+	
+	
+	
+    <div class="site-section bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 mb-5">
+
+            
+
+           <form accept-charset="UTF-8" action="/website_form/" class="s_website_form col-md-12 mt32 p-5 bg-white" data-model_name="crm.lead" data-force_action="" data-success_page="" enctype="multipart/form-data" method="post">
+       
+           
+		   
+              <div class="row form-group">
+                <div class="col-md-6 mb-3 mb-md-0 form-field-char" data-model-field="true" data-optional="true">
+                  <label class="text-black control-label" for="partner_name">Nom<b style="color:red;">*</b></label>
+                  <input name="partner_name" class="form-control o_website_form_input" type="text"/>
+                </div>
+				
+                <div class="col-md-6" data-model-field="true" data-optional="true">
+                  <label class="text-black control-label" for="contact_name">prenom<b style="color:red;">*</b></label>
+                   <input name="contact_name" class="form-control o_website_form_input" type="text"/>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                
+                <div class="col-md-12" data-model-field="true" data-optional="true">
+                  <label class="text-black control-label" for="contact_name">Email<b style="color:red;">*</b></label> 
+                  <input type="email" id="email" class="form-control"  name="email_from"/> 
+                </div>
+              </div>
+
+              <div class="row form-group">
+                
+                <div class="col-md-12" data-model-field="true" data-optional="false">
+                  <label class="control-label" for="name">sujet<b style="color:red;">*</b></label>
+                 <input name="name" required="required" class="form-control o_website_form_input" type="text"/>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12" data-model-field="true" data-optional="true">
+                  <label class="control-label" for="description">Message<b style="color:red;">*</b></label> 
+                  <textarea name="description" id="message" cols="30" rows="7" class="form-control" placeholder="Entrez votre message ici..."></textarea>
+                </div>
+              </div>
+
+              <div class="form-group">
+            <button type="button" class="btn btn-primary btn-lg o_website_form_send o_default_snippet_text">
+                ENVOYER
+            </button>
+            <span id="o_website_form_result"/>
+          </div>
+
+  
+            </form>
+          </div>
+          <div class="col-md-5" style="text-align: justify;font-size: 16px;">
+            
+            <div class="p-4 mb-3 bg-white">
+              <p class="mb-0 font-weight-bold">Adresse postal</p>
+              <p class="mb-4">18 Rue Fouche 6060 GILLY</p>
+
+              <p class="mb-0 font-weight-bold">GSM</p>
+              <p class="mb-4"><a href="#">+32 (0) 465.48.48.50</a></p>
+
+              <p class="mb-0 font-weight-bold">IBAN</p>
+              <p class="mb-0"><a href="#">BE63 3631 9264 8508</a></p>
+			  
+			  <p class="mb-0 font-weight-bold">BIC</p>
+              <p class="mb-0"><a href="#">BBREBEBB</a></p>
+			  
+			  <p class="mb-0 font-weight-bold">PAYPAL</p>
+              <p class="mb-0"><a href="https://www.paypal.com/mep/dashboard" target="_blank">www.paypal.com/mep/dashboard</a></p>
+
+            </div>
+            
+            <div class="p-4 mb-3 bg-white">
+              <h3 class="h5 text-black mb-3">Pourquoi nous choisir?</h3>
+              <p>
+			  Vous désirez être inhumé.e.s sur votre terre natale dans le respect de vos cultures et traditions et ce, sans peser sur vos proches ? Contactez-nous et adhérez au réseau Noble Retour afin d’être acteur de votre propre destinée
+			  </p>
+              <p><a href="/je-mengage" class="btn btn-primary px-4 py-2 text-white">EN SAVOIR PLUS</a></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	
+
+	<div>
+	
+	<!--
+	<xpath expr="//div[@name='mail_button']" position="replace">
+                <div class="container">
+				
+				 <div class="row">
+				   <div class="col-sm-8">
+				  
+                    <form action="/website_form/" method="post" data-model_name="crm.lead" data-success_page="/contactus-thank-you" class="s_website_form container-fluid mt32" enctype="multipart/form-data" data-editable-form="false">
+                        <div class="form-group row form-field o_website_form_required_custom">
+                            <label class="col-lg-3 col-md-4 col-form-label" for="contact_name">Votre Nom</label>
+                            <div class="col-lg-7 col-md-8">
+                                <input type="text" class="form-control o_website_form_input" name="contact_name" t-att-value="request.params.get('contact_name', '')" required=""/>
+                            </div>
+                        </div>
+                        <div class="form-group row form-field">
+                            <label class="col-lg-3 col-md-4 col-form-label" for="phone">Numéro de telephone</label>
+                            <div class="col-lg-7 col-md-8">
+                                <input type="text" class="form-control o_website_form_input" name="phone" t-att-value="request.params.get('phone', '')" />
+                            </div>
+                        </div>
+                        <div class="form-group row form-field o_website_form_required_custom">
+                            <label class="col-lg-3 col-md-4 col-form-label" for="email_from">Email</label>
+                            <div class="col-lg-7 col-md-8">
+                                <input type="text" class="form-control o_website_form_input" name="email_from" required="" t-att-value="request.params.get('email_from', '')" />
+                            </div>
+                        </div>
+                        <div class="form-group row form-field o_website_form_required_custom">
+                            <label class="col-lg-3 col-md-4 col-form-label" for="partner_name">Votre Entreprise</label>
+                            <div class="col-lg-7 col-md-8">
+                                <input type="text" class="form-control o_website_form_input" name="partner_name" required="" t-att-value="request.params.get('partner_name', '')" />
+                            </div>
+                        </div>
+                        <div class="form-group row form-field o_website_form_required">
+                            <label class="col-lg-3 col-md-4 col-form-label" for="name">Sujet</label>
+                            <div class="col-lg-7 col-md-8">
+                                <input type="text" class="form-control o_website_form_input" name="name" required="" t-att-value="request.params.get('name', '')" />
+                            </div>
+                        </div>
+                        <div class="form-group row form-field o_website_form_required_custom">
+                            <label class="col-lg-3 col-md-4 col-form-label" for="description">Votre Message</label>
+                            <div class="col-lg-7 col-md-8">
+                                <textarea class="form-control o_website_form_input" name="description" required=""><t t-esc="request.params.get('description', '')"/></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="offset-lg-3 offset-md-4 col-md-8 col-lg-7">
+                                <a href="#" role="button" class="btn btn-primary btn-lg o_website_form_send">ENVOYER</a>
+                                <span id="o_website_form_result"></span>
+                            </div>
+                        </div>
+                    </form>
+					</div>
+					
+					<div class="col-sm-4 text-left" style="padding-top: 75px;">
+					
+					<p>
+           <b>numéro de téléphone </b>: <span class="o_force_ltr" t-field="res_company.phone"/><br/><br/>
+		  	<b>Email</b> : <span>info@noble-retour.org</span>  <br/><br/>
+		   <b>Adresse postal</b> : Rue Fouche 18, 6060 Charleroi, Belgique.<br/><br/>
+		  
+					</p>
+			
+			
+					
+					
+					</div>
+					
+					
+					
+					
+					</div>
+                </div>
+			</xpath>
+	-->
+	
+	
+	
+	
+	
+	
+	
+	
+	</div>
+	
+	
+	</t>
+</template>
+
+<record id="contact_page" model="website.page">
+        <field name="website_published">True</field>
+        <field name="url">/contact</field>
+        <field name="view_id" ref="contact"/>
+</record>
+
+</odoo>

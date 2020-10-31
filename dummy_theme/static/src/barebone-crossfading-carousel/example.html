@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="dist/bare-bone-slider.min.js"></script>
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: arial, sans-serif;
+            font-weight: 700;
+            font-size: 96px;
+            color: #fff;
+            height: 100%;
+        }
+
+        .slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .one {
+            background-color: green;
+            background-image: url(https://source.unsplash.com/vIo9GGT4ZtQ/1280x900);
+        }
+        .two {
+            background-color: tomato;
+            background-image: url(https://source.unsplash.com/HCmKuS0_szU/1280x900);
+        }
+        .three {
+            background-color: teal;
+            background-image: url(https://source.unsplash.com/7j6zcEZD8aM/1280x900);
+        }
+    </style>
+    <link rel="stylesheet" href="dist/bare-bone-slider.css">
+    <title>Bare-bone Carousel/Slider Example</title>
+</head>
+<body>
+    <div class="bb-slider slider-example">
+        <div class="slide bb-slide one">Bare-bone Carousel/Slider Example</div>
+        <div class="slide bb-slide two">jQueryScript</div>
+        <div class="slide bb-slide three">jQueryScript</div>
+        <div class="bb-dots">
+            <span class="bb-dot"></span>
+            <span class="bb-dot"></span>
+            <span class="bb-dot"></span>
+        </div>
+    </div>
+    <script>
+      jQuery(".slider-example").BBSlider({
+        slideDuration: 3000,
+            autoPlay: true
+        });
+    </script>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

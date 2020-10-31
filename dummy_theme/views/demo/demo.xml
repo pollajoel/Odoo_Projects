@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+ <odoo>
+
+ 
+ 
+         <record model="noble.members" id="Member0">
+            <field name="subscriber_name">Teguia polla</field>
+            <field name="subscriber_first_name">joel</field>
+            <field name="subscriber_born_at">27 Août 1989 à yaoundé</field>
+            <field name="subscriber_mobile_phone">00237655997653</field>
+            <field name="subscriber_professional_phone">00237977659867</field>
+            <field name="subscriber_email">pollajoel@yahoo.com</field>
+            <field name="subscriber_adress">Bruxelles</field>
+            <field name="beneficiary_name">Polla</field>
+            <field name="beneficiary_mobile">00237675810182</field>
+            <field name="beneficiary_mail">polla@gmail.com</field>
+            <field name="beneficiary_mail">polla@gmail.com</field>
+            <field name="beneficiary_Address">Hannover Bruxelles</field>
+            <field name="beneficiary_Remark">Mes remarques</field>
+            <field name="PaiementType">True</field>
+            <field name="beneficiary_Reference">References du bénéficiaire</field>
+            <field name="organisation_Name">SABL </field>
+			
+			
+        </record>
+        
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </odoo>

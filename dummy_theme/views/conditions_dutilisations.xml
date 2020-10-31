@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="cud3"> 
+
+    <t t-call="website.layout">
+	<div id="wrap" class="oe_structure oe_empty">
+      <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt96 pb24" data-scroll-background-ratio="1" style="background-image: none;">
+        <span class="s_parallax_bg oe_img_bg oe_custom_bg o_bg_img_opt_contain" style="background-image: url(&quot;/web/image/website.s_cover_default_image&quot;);"/>
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title" data-name="Title">
+              <h1 class="s_title_thin o_default_snippet_text" style="font-size: 62px; text-align: center;">CONDITIONS D’UTILISATION</h1>
+            </div>
+			
+			<!--
+            <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+              <p class="lead o_default_snippet_text" style="text-align: center;">Ecrivez un ou deux paragraphes décrivant votre article, vos services ou une fonctionnalité spécifique.<br/> Pour avoir du succès, votre contenu doit être utile pour vos lecteurs.</p>
+            </div>
+            <div class="col-lg-12 s_btn text-center pt16 pb16" data-name="Buttons">
+              <a href="/aboutus" class="btn btn-delta rounded-circle o_default_snippet_text">À propos</a>
+              <a href="/contactus" class="btn btn-primary rounded-circle o_default_snippet_text">Contactez-nous</a>
+            </div>
+			-->
+			
+			
+          </div>
+        </div> 
+      </section>
+	  
+	  <section>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+					
+<br/>					
+<h2>PRÉAMBULE</h2>
+<p style="text-align:justify;">
+Les présentes conditions générales et spécifiques d'utilisation, désignées ci-après les
+“Conditions”, sont applicables au site web gérée par NOBLE RETOUR ASBL.
+Le Site Web et tous les médias et applications y afférents sont la propriété et sont gérés par :
+NOBLE RETOUR ASBL ayant pour siège social:
+18 Rue Fouche
+6060 Charleroi
+Email : info@noble-retour.org
+Tel : 0465 48 48 50
+</p>
+<p style="text-align:justify;">
+Vous devenez utilisateur du Site Web par le simple fait de visiter le Site Web, de consulter ou
+de partager des informations sur le Site Web, ainsi que par toute autre utilisation du Site
+Web. Vous êtes un utilisateur enregistré si vous vous connectez au Site Web ou à certaines
+parties de celui-ci, en utilisant un nom d'utilisateur et un mot de passe. Toute utilisation du
+Site Web implique l'acceptation des présentes Conditions.
+NOBLE RETOUR ASBL a le droit de modifier à tout moment les informations se trouvant
+sur ce Site Web ainsi que son/leur mode de fonctionnement et d'adapter à tout moment les
+Conditions, et ce, unilatéralement et sans avis préalable. Vous en serez informé par le biais
+d'une publication sur le Site Web en question.
+Toute nullité ou annulation d'une disposition quelconque des présentes Conditions, n'affecte
+en rien la validité des autres dispositions des Conditions qui restent pleinement applicables.
+</p>
+<h2>ARTICLE 1: BUT ET UTILISATION DU SITE WEB</h2>
+<p style="text-align:justify;">
+Le Site Web a pour but de vous informer de la manière la plus optimale possible des
+différents aspects qui entourent un décès, les dernières volontés, les funérailles et les aides au
+rapatriement. L'utilisation du Site Web est gratuite. L'accès aux parties généralement
+accessibles du Site Web est libre. Vous vous engagez à utiliser les informations reprises sur
+le Site Web à des fins exclusivement personnelles pour votre usage privé. Toute utilisation
+commerciale, comme le placement de matériel promotionnel ou publicitaire, est interdite, sauf
+autorisation formelle préalable de NOBLE RETOUR ASBL.
+En cas d'utilisation du Site Web, vous déclarez vouloir utiliser correctement le Site Web en
+question, son contenu et ses services et ne pas poser d'acte susceptible de porter préjudice à
+NOBLE RETOUR ASBL et/ou aux utilisateurs/tiers, et/ou d'entraver le bon fonctionnement
+du Site Web.
+</p>
+<p style="text-align:justify;">
+Il est interdit d'utiliser ce Site Web pour commettre des actes illégaux ou criminels, ou encore
+d'y installer ou d'y diffuser du matériel en infraction avec les droits de l'homme, les bonnes
+mœurs, la loi ou de nature à choquer. Par conséquent, vous vous engagez
+notamment à ne pas placer sur le Site Web de contenu, d'informations, de logiciels ou autre
+matériel de nature pornographique, obscène, blasphématoire, diffamatoire, injurieuse,
+menaçante subversive, raciste ou autre pour NOBLE RETOUR ASBL, d'autres utilisateurs,Page | 2
+clients, membres du personnel et/ou tiers. Si vous ouvrez un compte (voir art. 7), vous
+déclarez accepter de tenir les données de votre compte à jour pour autant que nécessaire et de
+les gérer en bon père de famille.
+</p>
+<p style="text-align:justify;">
+NOBLE RETOUR ASBL se réserve le droit de refuser l'accès au Site Web aux utilisateurs
+qui ne respectent pas les Conditions, qui utilisent les données du Site Web de manière
+inappropriée, notamment pour proposer des produits ou services payants ou pour envoyer des
+messages non-souhaités en grand nombre vers les adresses e-mail d'autres utilisateurs de
+l'Internet ("spamming"), qui d'une manière ou d'une autre sont susceptibles d'entacher la
+réputation du Site Web ou de NOBLE RETOUR ASBL qui commettent une infraction aux
+droits de propriété intellectuelle de tiers et/ou qui utilisent le Site Web à des fins
+illicites. NOBLE RETOUR ASBL se réserve également le droit d'engager le cas échéant des
+poursuites judiciaires contre ces mêmes personnes.
+</p>
+<p style="text-align:justify;">
+Si vous placez un contenu sur le Site Web, vous déclarez être le propriétaire exclusif de
+l'intégralité du contenu et exclusivement ajouter des informations sous votre propre
+responsabilité ou celle de tiers que vous représentez légalement et qui vous ont remis un
+mandat à cette fin. Les textes et/ou photos de tiers ne peuvent être utilisés sans l'autorisation
+préalable des intéressés.
+Le Site Web “noble-retour.org” vous permet de vous inscrire à NOBLE RETOUR ASBL et
+bénéficier par ricochet de ses services. Toutefois, chaque membre doit respecter les statuts, le
+règlement d’ordre intérieur et nos conditions générales pour pouvoir bénéficier des services
+de NOBLE RETOUR ASBL.
+Toute utilisation ou contribution à www.noble-retour.org est exclusivement réservée aux
+utilisateurs enregistrés et régie par les conditions d'utilisation spécifiques reprises à l'art. 7.</p>
+<p style="text-align:justify;">
+<b>ARTICLE 2: CHAMP D'APPLICATION – MINEURS D'ÂGE</b>
+Pour pouvoir faire une demande d’inscription sur www.noble-retour.org ,vous devez être
+âgé(e) d'au moins 16 ans. Si vous êtes âgé(e) de moins de 16 ans, NOBLE RETOUR ASBL
+vous demande de faire confirmer vos interventions par vos parents ou tuteurs légaux et d'avoir
+préalablement obtenu l'accord de vos parents, tuteurs ou représentants légaux. NOBLE
+RETOUR ASBL se réserve le droit de refuser une demande d’inscription si elle a des raisons
+de craindre que vous êtes mineur. NOBLE RETOUR ASBL invite les utilisateurs mineurs qui
+communiquent des données personnelles de lire également auparavant la déclaration en
+matière de protection de la vie privée de NOBLE RETOUR ASBL et d'en discuter avec leurs
+parents, tuteurs ou représentants légaux.
+</p>
+<p style="text-align:justify;">
+<b>ARTICLE 3: ENTRETIEN</b><br/>
+Pas de garanties :
+Les informations reprises sur le Site Web sont de nature générale. Les informations ne sont
+pas calibrées en fonction de votre situation personnelle ou spécifique, et ne peuvent donc être
+considérées comme un avis personnel, professionnel et/ou juridique à l'utilisateur.
+NOBLE RETOUR ASBL se réserve le droit de modifier et/ou d'écourter le contenu du Site
+Web (liens inclus) et des informations qui y ont été introduites, et ce, à tout moment et sansPage | 3
+annonce ou notification préalable, ainsi que de comparer les informations que vous avez
+introduites afin d'en contrôler l'exactitude et de les vérifier auprès de tiers.
+</p>
+<p style="text-align:justify;">
+<b>Inexactitudes:</b>
+NOBLE RETOUR ASBL met tout en œuvre pour que les informations mises à disposition
+soient complètes, exactes, précises et à jour. Malgré tous ses efforts, il reste toujours possible
+que des inexactitudes se soient glissées dans les informations mises à disposition. Si les
+informations communiquées devaient comporter des inexactitudes ou si certaines
+informations devaient être indisponibles sur ou via le Site Web, NOBLE RETOUR ASBL
+fera tout son possible pour remédier le plus rapidement possible à cette situation.
+La responsabilité de NOBLE RETOUR ASBL ne peut toutefois être engagée pour les
+dommages directs et indirects résultant de l'utilisation des informations reprises sur le Site
+Web, et ce, au sens le plus large du terme pour autant qu'autorisé par la loi.
+Si vous deviez constater des inexactitudes dans les informations mises à disposition via le Site
+Web ou relever des informations ou créations qui, selon vous, n'ont pas leur place sur un tel
+site ou qui enfreignent vos droits ou ceux de tiers, nous vous invitons à contacter le
+gestionnaire du Site Web à l'adresse suivante: info@noble-retour.org
+</p>
+<p style="text-align:justify;">
+<b>Contenu de tiers :</b>
+NOBLE RETOUR ASBL met à la disposition de ses membres un espace personnalisé. Cet
+espace leur permettra de télécharger les documents personnels utiles à NOBLE RETOUR
+ASBL dans le processus de rapatriement du membre en cas de décès. Le membre pourra aussi
+avoir accès à une carte électronique de membre lui renseignant sur son statut. Il est de sa
+responsabilité de mettre à jour ses données personnelles tels que changement d’adresse, nom
+bénéficiaire etc. NOBLE RETOUR ASBL ne porte par conséquent pas la moindre part de
+responsabilité concernant le contenu, y compris celui généré par les utilisateurs ("user
+generated content"), des espaces personnels. NOBLE RETOUR ASBL n'est pas tenue
+d'effectuer des contrôles ni d'exercer la moindre surveillance des activités qui se déroulent sur
+les espaces personnels des membres.
+</p>
+<p style="text-align:justify">
+<b>Hyperliens:</b><br/>
+La responsabilité de NOBLE RETOUR ASBL ne peut en aucun cas être engagée de quelque
+manière que ce soit, directement ou indirectement, à l'égard de qui que ce soit pour des
+dommages résultant de l'utilisation de ce Site Web ou de tout autre site web, notamment à la
+suite de liens ou hyperliens, en ce compris, sans limitation, toutes les pertes, interruptions de
+travail et/ou endommagements de programmes ou autres données de tout système
+informatique, appareillage, programmation ou autre.
+Le Site Web peut contenir des hyperliens vers des sites web ou vers des pages de tiers, ou y
+renvoyer indirectement. Le placement de liens vers ces sites web ou vers ces pages ne
+signifie en aucune manière une quelconque approbation implicite de leur contenu. NOBLE
+RETOUR ASBL déclare formellement n'avoir aucun contrôle quant au contenu ou autres
+caractéristiques de ces sites web et que sa responsabilité ne peut en aucun cas être engagée
+pour le contenu ou les autres caractéristiques desdits sites ou pour toute autre forme de
+dommage résultant de leur utilisation. Les conditions générales ou la déclaration en matière
+de respect de la vie privée de ces sites web peuvent en outre être différentes de celles de
+NOBLE RETOUR ASBL.</p>
+<p style="text-align:justify;">
+<b>ARTICLE 4: FONCTIONNEMENT TECHNIQUE</b><br/>
+NOBLE RETOUR ASBL n'offre aucune garantie quant au bon fonctionnement du Site Web
+et sa responsabilité ne peut en aucune manière être engagée en cas de mauvais
+fonctionnement ou de (in)disponibilité temporaire du Site Web, ou de retard de transfert des
+informations et/ou de défaillance du serveur sur lequel le Site Web est hébergés. En cas de
+défaillance ou d'interruption, NOBLE RETOUR ASBL mettra tout en œuvre pour remédier le
+plus rapidement possible au problèmeme.
+La responsabilité de NOBLE RETOUR ASBL ne peut en outre jamais être engagée pour
+quelque forme de dommage, direct ou indirect, que ce soit, comme notamment la perte de
+données résultant d'une panne technique ou d'une erreur humaine découlant de l'accès ou de
+l'utilisation du Site Web.
+NOBLE RETOUR ASBL peut, et ce, sans notification préalable, mettre le Site Web
+(temporairement) hors service et en limiter l'usage dans la mesure où cela s'impose pour la
+réalisation d'un entretien raisonnablement nécessaire ou d'une mise à jour ou amélioration du
+système devenue nécessaire, et ce, sans qu'aucun dédommagement ne puisse être dû de ce fait
+dans le chef de NOBLE RETOUR ASBL.
+</p>
+<p style="text-align:justify;">
+<b>ARTICLE 5: PROPRIÉTÉ INTELLECTUELLE</b><br/>
+NOBLE RETOUR ASBL est le propriétaire exclusif des droits de propriété intellectuelle
+inhérents au Site Web. Elle vous accorde uniquement des droits d'usage. Le droit d'usage est
+exclusif et incessible à des tiers. Vous vous engagez dans ce cadre à ne pas utiliser de
+manière impropre, exploiter et/ou aliéner, en totalité ou en partie, de quelque manière et sous
+quelque forme que ce soit, les éléments qui forment le Site Web.
+Si vous placez un contenu sur le Site Web, vous accordez à NOBLE RETOUR ASBL le droit
+d'utiliser toutes les informations ajoutées dans le cadre de ses activités habituelles, sans
+qu'aucune indemnité ne soit prévue de ce fait, et ce, toutefois, dans le plus grand respect de
+votre vie privée.
+Le contenu de ce Site Web –y compris les marques, vidéos, logos, dessins, données, noms de
+produits ou d'entreprises, textes, illustrations et modèles – est protégé par des droits de
+propriété intellectuelle appartenant à NOBLE RETOUR ASBL, pour autant que ces droits ne
+soient pas détenus par des tiers ayant mis le matériel à disposition.
+Il est interdit, de stocker (à une autre fin que celle qui est nécessaire à l'utilisation du site
+web), reproduire, modifier, diffuser, distribuer, vendre ou céder de toute autre manière, en
+totalité ou en partie, des informations reprises sur le Site Web, sans en avoir obtenu
+l'autorisation écrite préalable de NOBLE RETOUR ASBL, ou encore d'accorder quelque droit
+que ce soit sur ces informations à des tiers. De brèves citations sont admises, excepté à des
+fins commerciales, moyennant une mention claire de la source “NOBLE RETOUR ASBL” et
+avec un hyperlien renvoyant au contenu original sur le Site Web.
+</p>
+<p style="text-align:justify;">
+<b>ARTICLE 6: RÈGLEMENT DES PLAINTES ET LITIGES</b><br/>
+En cas de réclamation concernant notre Site Web, nous vous invitons à nous contacter à
+l’adresse : info@noble-retour.org . Nous mettrons tout en œuvre pour traiter votre
+réclamation le plus rapidement possible.
+L'utilisation du (des) Site(s) Web et des présentes Conditions est régie par le droit
+belge. Seuls les Cours et Tribunaux situés à Charleroi, division Charleroi, sont compétents
+pour connaître des litiges, sans préjudice des dispositions du droit impératif ou d'ordre public
+qui pourraient renvoyer devant d'autres cours ou tribunaux compétents, notamment en matière
+de litiges de consommation.
+Si une autre juridiction est malgré tout compétente en vertu du droit international,
+l'interprétation des présentes Conditions devra en premier lieu se faire sur la base du Code de
+droit économique du 28 février 2013.
+</p>
+<p style="text-align:justify;">
+<b>ARTICLE 7: CONDITIONS D'UTILISATION SPÉCIFIQUES:</b><br/>
+Généralités :
+Les présentes conditions d'utilisation spécifiques régissent votre utilisation du Site Web
+“www.noble-retour.org”
+Enregistrement :
+Pour vous enregistrer, vous devez remplir le formulaire d’adhésion, accepter nos statuts et
+règlement d’ordre intérieur ainsi que nos conditions générales. Vous recevrez par email une
+confirmation d’inscription et les codes d’accès que vous pourrez changer. Le même compte
+vous donne accès aux deux Applications. Pour vous permettre, en tant que membre adhérent,
+de consulter et/ou de modifier les informations personnelles, votre statut vis à vis de NR asbl.
+NOBLE RETOUR ASBL se réserve le droit de limiter ou de refuser l'accès à une ou plusieurs
+Applications si vous ne disposez pas de la compétence requise. NOBLE RETOUR ASBL se
+réserve également le droit de refuser un enregistrement ou de bloquer un compte. Dans un tel
+cas, aucune responsabilité, perte dommageable, frais ou indemnité ne pourra être imputé au
+gestionnaire du site Web ou des applications.
+</p>
+<p style="text-align:justify;">
+Vous êtes responsable de l'exactitude et de la complétude des données fournies et déclarez ne
+pas avoir utilisé frauduleusement l'identité d'une quelconque autre personne, un faux nom ou
+dénomination commerciale ou alias, utilisation pour laquelle vous n'avez pas obtenu
+l'autorisation en tant qu'utilisateur.<br/>
+<b>Gestion d'ouverture de session :</b>
+Vous êtes personnellement responsable de vos données d'ouverture de session (adresse e-mail
+et mot de passe, données personnelles). Vous devez par conséquent mettre en œuvre tous les
+moyens raisonnables afin de préserver la confidentialité de votre mot de passe et pour éviter
+que celui-ci ainsi que, le cas échéant, votre e-id, puissent être utilisés par des tiers. Toute
+utilisation des Applications, du sites web, après une identification valable à l'aide d'un mot de
+passe vous appartenant sera réputée avoir été effectuée par vous-même.</p>
+<p style="text-align:justify;">
+Vous vous engagez à informer immmédiatement NOBLE RETOUR ASBL de toute
+utilisation non-autorisée de votre compte ou de votre mot de passe, ou encore de toute autre
+infraction, même potentielle, à la ssécurité du site Web et des Applications.<br/>
+<b>Annulation – désinscription :</b><br/>
+Si vous souhaitez annuler votre enregistrement dans www.noble-retour.org , il vous suffit
+d'envoyer un courrier recommandé à NOBLE REOUR ASBL au 18 Rue Fouche, 6060
+Charleroi ou par email info@noble-retour.org
+La responsabilité de NOBLE RETOUR ASBL ne pourra pas être engagée de quelque manière
+que ce soit pour les (agissements des organisations qui se trouvent derrière les) réseaux en
+ligne sur lesquels vous détenez un profil personnel.
+La responsabilité de NOBLE RETOUR ASBL ne peut, non plus, être engagée pour quelque
+dommage ou perte que ce soit de données stockées à l'occasion d'une utilisation inappropriée
+ou illicite de vos données personnelles numériques par vous-même.
+Plus généralement, NOBLE RETOUR ASBL décline toute responsabilité contractuelle et
+extracontractuelle pour tout dommage présentant un lien avec l'utilisation et/ou la visite du
+site web et ce, pour autant que la présente exclusion de responsabilité n'enfreigne pas des
+dispositions du droit impératif ou d'ordre public.</p>
+<p style="text-align:justify;">
+À cet égard, vous vous engagez, à l'exclusion de toute responsabilité dans le chef de NOBLE
+RETOUR ASBL, à votre égard et à l'égard de tiers, à ce qui suit :
+<ul>
+<li>Une confidentialité adéquate concernant votre mot de passe ;</li>
+<li>la complétude, le cas échéant une mise à jour complète, des données communiquées
+qui sont nécessaires à l'établissement et à la gestion de votre coffre-fort numérique;</li>
+<li>la désignation uniquement de personnes de confiance disposant de la capacité
+juridique requise;</li>
+<li>plus généralement, une utilisation prudente et de bonne foi du site web www.nobleretour.org. Ce qui implique que vous n'importiez pas, lors de la réalisation de votre
+d’espace personnelle numérique, que ce soit intentionnellement ou par imprudence ou
+négligence, des virus, chevaux de Troie, vers, bots ou autres programmations de
+nature à endommager, rendre inutilisables ou inaccessibles, effacer ou à permettre
+l'appropriation de données électroniques, ou qui sont destinés contourner ou désactiver
+les mesures techniques de sécurité d'un site web ou d'un environnement IT.</li>
+</ul>
+www.noble-retour.org
+Via www.noble-retour.org vous pouvez conserver et modifier gratuitement vos souhaits pour
+votre rapatriement, vos données personnelles, vous pouvez vous renseigner quant à votre
+régularité vis à vis de NOBLE RETOUR ASBL.
+La consignation de vos souhaits pour votre rapatriement se fait sur une base volontaire et n'a
+aucun statut juridique particulier, contrairement, par exemple, à votre testament.
+En utilisant notre site web pour consigner vos souhaits pour votre rapatriement, vous acceptez
+ces conditions d'utilisation, en tant qu'utilisateur de www.noble-retour.org. Un contrat est, de
+ce fait, établi entre NOBLE RETOUR ASBL et vous-même, en tant qu'utilisateur.Page | 7
+NOBLE RETOUR ASBL peut analyser les données introduites par les utilisateurs du portail,
+dans le but d'approcher les utilisateurs de manière ciblée avec des produits et services de
+NOBLE RETOUR ASBL.
+</p>
+<p style="text-align:justify;">
+En utilisant le portail, vous acceptez que vos données à caractère personnel soient traitées de
+la manière décrite dans ces conditions d'utilisation.
+De plus amples informations sur la manière dont NOBLE RETOUR ASBL traite vos données
+à caractère personnel sont reprises dans la déclaration relative à la vie privée.
+NOBLE RETOUR ASBL décline toute responsabilité pour tout dommage ou perte de
+données stockées en cas d'utilisation inappropriée ou illicite de votre coffre-fort numérique
+par vous-même.
+Plus généralement, NOBLE RETOUR ASBL décline toute responsabilité contractuelle et
+extracontractuelle pour tout dommage présentant un lien avec l'utilisation et/ou la visite du
+site web et ce, pour autant que la présente exclusion de responsabilité n'enfreigne pas des
+dispositions du droit impératif ou d'ordre public.
+À cet égard, vous vous engagez, à l'exclusion de toute responsabilité dans le chef de NOBLE
+RETOUR ASBL, à votre égard et à l'égard de tiers, à ce qui suit :<br/>
+<ul>
+<li> Une confidentialité adéquate concernant votre mot de passe et une utilisation prudente
+de votre e-id;</li>
+<li>La complétude, le cas échéant une mise à jour complète, des données communiquées
+qui sont nécessaires à l'établissement et à la gestion de votre compte;</li>
+<li> Plus généralement, une utilisation prudente et de bonne foi du site wwwnobleretour.org. Ce qui implique que vous n'importiez pas, que ce soit intentionnellement
+ou par imprudence ou négligence, des virus, chevaux de Troie, vers, bots ou autres
+programmations de nature à endommager, rendre inutilisables ou inaccessibles,
+effacer ou à permettre l'appropriation de données électroniques, ou qui sont destinés à
+contourner ou désactiver les mesures techniques de sécurité d'un site web ou d'un
+environnement IT.</li>
+</ul>
+</p>
+<p style="text-align:justify;">
+Le droit belge s'applique à ces Conditions d'utilisation.
+Les Conditions d'utilisation n'affectent pas les droits impératifs de l'Utilisateur en tant que
+consommateur.
+Les éventuels litiges portant sur ces Conditions d'utilisation seront soumis au tribunal
+compétent selon le droit belge.
+</p>
+
+
+					</div>
+				</div>
+			</div>
+	  </section>
+</div>
+	  
+	</t>
+</template>
+
+
+
+<record id="cud_page2" model="website.page">
+        <field name="website_published">True</field>
+        <field name="url">/conditions</field>
+        <field name="view_id" ref="cud3"/>
+    </record>
+
+</odoo>

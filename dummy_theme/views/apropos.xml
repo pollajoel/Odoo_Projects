@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="a propos"> 
+
+    <t t-call="website.layout">
+	
+	
+	<div id="wrap" class="oe_structure oe_empty">
+      <section class="s_cover parallax pt96 s_parallax_no_overflow_hidden bg-black-25 pb240" data-scroll-background-ratio="0" style="background-image: none;">
+        <span class="s_parallax_bg oe_img_bg oe_custom_bg o_bg_img_opt_contain" style="background-image: url(&quot;/dummy_theme/static/images/apropos/header.jpeg&quot;);"/>
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title" data-name="Title">
+              <h1 class="s_title_thin" style="font-size: 62px; text-align: center;">
+                <font style="color: rgb(255, 255, 255);">Qui sommes-nous?</font>
+                <br/>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_text_image pt32 pb0">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16">
+              <h2>Notre Histoire<br/></h2>
+              <p class="o_default_snippet_text">
+                </p>
+              <p class="MsoNormal" style="text-align: justify;">
+                <span style="font-size:16px;line-height:115%;&#10;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin" lang="FR-BE">L’Asbl NOBLE RETOUR est une association de droit belge, enregistrée auprès de la Banque Carrefour des Entreprises depuis le 5 Septembre 2019. Elle a été créée pour répondre à un besoin criard de rapatriement des corps dans la dignité humaine. L’
+                </span>
+                <span style="font-size:16px;line-height:115%;mso-bidi-theme-font:minor-latin;mso-ansi-language:EN-US" lang="EN-US">Association
+                </span>
+                <span style="font-size:16px;line-height:115%;mso-ansi-language:IT" lang="IT"> naît d’un 
+                </span>
+                <span style="font-size:16px;line-height:115%;mso-ansi-language:EN-US" lang="EN-US">constat, ainsi que d’un 
+                </span>
+                <span style="font-size:16px;line-height:115%;mso-bidi-theme-font:minor-latin;mso-ansi-language:IT" lang="IT">sentiment d’impuissance, de tristesse
+                </span>
+                <span style="font-size:16px;&#10;line-height:115%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;&#10;mso-ansi-language:EN-US" lang="EN-US"> et surtout
+                </span>
+                <span style="font-size:16px;&#10;line-height:115%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;&#10;mso-ansi-language:IT" lang="IT"> de 
+                </span>
+                <span style="font-size:16px;&#10;line-height:115%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;&#10;mso-ansi-language:EN-US" lang="EN-US">beaucoup de 
+                </span>
+                <span style="font-size:&#10;16px;line-height:115%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;&#10;mso-ansi-language:IT" lang="IT">douleu</span>
+                <span style="font-size:16px;&#10;line-height:115%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;&#10;mso-ansi-language:EN-US" lang="EN-US">r 
+                </span>
+                <span style="font-size:16px;&#10;line-height:115%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;&#10;mso-ansi-language:IT" lang="IT">suite au décès d’un
+                </span>
+                <span style="font-size:16px;line-height:115%;mso-ansi-language:EN-US" lang="EN-US"> être cher
+                </span>
+                <span style="font-size:16px;line-height:115%;mso-ansi-language:IT" lang="IT">. 
+              </span>
+              </p>
+              <p style="text-align: justify;">
+                <span style="font-size:16px;line-height:&#10;115%;mso-ascii-theme-font:minor-latin;&#10;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&#10;minor-latin;mso-bidi-theme-font:minor-latin;background:white;mso-ansi-language:&#10;FR-BE;mso-fareast-language:EN-US;mso-bidi-language:AR-SA" lang="FR-BE">Alors que nous n’étions encore que des étudiants, nous avons perdu un membre de notre famille. </span>
+                <span style="font-size:16px;line-height:115%;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&#10;Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&#10;mso-bidi-theme-font:minor-latin;mso-ansi-language:FR-BE;mso-fareast-language:&#10;EN-US;mso-bidi-language:AR-SA" lang="FR-BE">Faute de moyens financiers pour rapatrier la dépouille sur la terre natale, nous avons dû incinérer le corps. L’argent que nous avions collecté à l'époque nous a tout juste servi à payer un billet d’avion aller-retour pour ramener les cendres à la famille restée au pays</span>
+              </p>
+            </div>
+            <div class="col-lg-6 pt16 pb0">
+              <img src="/dummy_theme/static/images/apropos/apropos.jpeg" class="img img-fluid mx-auto" alt="Odoo • Texte et Image" data-original-title="" title="" aria-describedby="tooltip897132"/>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div style="text-align: justify;">
+        <section class="s_text_image pt0 pb0">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="pt16 col-lg-12 pb0">
+                <p class="MsoNormal">
+                  <span style="font-size:16px;line-height:115%;&#10;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin" lang="FR-BE">Les traditions africaines veulent que les morts soient enterrés au village auprès des ancêtres. Imaginez la frustration que nous avons ressenti de n'avoir pu honorer cet être cher comme nous aurions voulu le faire.&amp;nbsp;C'est ainsi que nous nous sommes penchés sur cette problématique.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <ul/>
+      <ul/>
+      <ul/>
+      <ol/>
+      <ul/>
+      <ul/>
+      <ul/>
+      <section class="s_picture pt40 pb oe_img_bg oe_custom_bg" style="background-color:#000;">
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title pt0 pb24">
+              <h2 class="s_title_thin" style="text-align: center;">
+                <b>
+                  <font style="color: rgb(255, 255, 255); font-size: 48px;">Notre mission<br/></font>
+                </b>
+              </h2>
+            </div>
+            <div class="col-lg-8 offset-lg-2 pb0 rounded">
+              <figure class="figure">
+                <img src="/dummy_theme/static/images/apropos/contain.jpeg" class="figure-img img-fluid rounded img-thumbnail padding-large" alt="Odoo • une photo avec une légende" data-original-title="" title="" aria-describedby="tooltip432846"/>
+                <figcaption class="figure-caption py-3 text-center">&amp;nbsp;</figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-10 offset-lg-2 pb0 pt0" style="color: rgb(255, 255, 255);">
+              <p style="text-align: center;" class="o_default_snippet_text">
+                </p>
+              <ul>
+                <li>
+                  <p style="margin-top:15.6pt;margin-right:0cm;margin-bottom:0cm;margin-left:&#10;0cm;margin-bottom:.0001pt;text-align:justify;color: rgb(255, 255, 255);">
+                    <span>
+                      Fournir une
+solution simple, efficace et démocratique aux problèmes posés par le décès d’un
+membre du réseau.
+                    </span>
+                  </p>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <p style="margin-top:15.6pt;margin-right:0cm;margin-bottom:0cm;margin-left:&#10;0cm;margin-bottom:.0001pt;text-align:justify;color: rgb(255, 255, 255);">
+                    <span>Informer sur
+les questions liées aux assurances funéraires.
+                    </span>
+                  </p>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <p style="margin-top:15.6pt;margin-right:0cm;margin-bottom:0cm;margin-left:&#10;0cm;margin-bottom:.0001pt;text-align:justify;color: rgb(255, 255, 255);">
+                    <span>
+                      Permettre un retour digne vers la terre mère
+                    </span>
+                    <br/>
+                  </p>
+                </li>
+                <li>
+                  <p style="margin-top:15.6pt;margin-right:0cm;margin-bottom:0cm;margin-left:&#10;0cm;margin-bottom:.0001pt;text-align:justify;color: rgb(255, 255, 255);">
+                    <span>Permettre aux familles de faire leur deuil sereinement</span>
+                  </p>
+                  <div class="s_btn pb16 text-left pt24" data-name="Buttons">
+                    <a href="/adhesion" class="btn btn-primary" data-original-title="" title="" aria-describedby="tooltip742736">Comment devenir membre ?</a>
+                  </div>
+                </li>
+              </ul>
+              <br/>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_text_image pt32 pb0">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="pt16 col-lg-12 pb16">
+              <h2 style="text-align: center;">
+                <span style="font-weight: normal;">
+                  <font style="font-size: 48px;text-transform:uppercase;">Services offerts</font>
+                </span>
+                <br/>
+              </h2>
+              <p class="o_default_snippet_text">
+                </p>
+              <p class="MsoNormal" style="text-align: justify;">
+                <b>
+                  <span style="font-size:16px;line-height:&#10;115%" lang="FR-BE">Créée en septembre 2019, </span>
+                </b>
+                <span style="font-size:&#10;16px;line-height:115%" lang="FR-BE">l’association part du constat d’un manque de&amp;nbsp;connaissance, d’anticipation et de préparation financière des membres des&amp;nbsp;diasporas africaines sur les questions de décès et de rapatriement.&amp;nbsp;Ces manquements entraînant généralement une succession de situations&amp;nbsp;favorisant la précarisation des familles touchées et générant un sentiment de&amp;nbsp;frustration, les administrateurs de Noble Retour ont souhaité répondre à ce&amp;nbsp;besoin par deux formules simples et démocratiques.&amp;nbsp;</span>
+              </p>
+            </div>
+            <div class="col-lg-6 pb24" data-name="Box" style="padding-left: 23px;">
+              <h2>Option 1<br/></h2>
+              <p style="text-align: justify;">
+			  versement d’une somme maximale de 8000 euros aux bénéficiaires. La prise en charge est laissée aux soins de la famille et des proches.
+				</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_features_grid pt0 pb0">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+              <div class="row">
+                <div class="col-lg-12 pb16" data-name="Box">
+                  <div class="col-lg-12 pb0" data-name="Box">
+                    <h2>Option 2<br/></h2>
+                    <p style="text-align: justify;">
+                     
+					 grâce aux services d’un maître d’œuvre, la prise en charge est effectuée par Noble Retour et comprend les services suivants :
+	             </p>
+                  </div>
+                </div>
+                <div class="col-lg-12 pt16 pb0" data-name="Box">
+                  <span class="fa fa-2x fa-envira rounded-circle s_features_grid_icon shadow" style="background-color: rgb(254, 126, 46); color: rgb(255, 255, 255);" data-original-title="" title="" aria-describedby="tooltip729337"/>
+                  <div class="s_features_grid_content">
+                    <h4>Fermeture hermétique<br/></h4>
+                    <p style="text-align: justify;">
+                      <span>En étroite collaboration avec la&amp;nbsp;famille : il s’agit de déclaration de décès, les formalités avec SPF&amp;nbsp;Santé Publique, SPF Affaires Étrangères, les formalités&amp;nbsp;consulaires et aéroportuaires.&amp;nbsp;</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-12 pt16 pb16" data-name="Box">
+                  <span class="fa fa-2x fa-group rounded s_features_grid_icon rounded-circle shadow" style="background-color: rgb(254, 126, 46); color: rgb(255, 255, 255);" data-original-title="" title="" aria-describedby="tooltip421342"/>
+                  <div class="s_features_grid_content">
+                    <h4>Ticket accompagnateur<br/></h4>
+                    <p style="text-align: justify;">un billet d’avion aller-retour pour un membre de la famille est pris en charge.<br/></p>
+                  </div>
+                </div>
+                <div class="col-lg-12 pt16 pb0" data-name="Box">
+                  <span class="fa fa-2x fa-plane rounded-circle s_features_grid_icon shadow" style="background-color: rgb(254, 126, 46); color: rgb(255, 255, 255);" data-original-title="" title="" aria-describedby="tooltip51281"/>
+                  <div class="s_features_grid_content">
+                    <h4>Transfert aérien<br/></h4>
+                    <p style="text-align: justify;">Rapatriement du corps du lieu de décès vers le pays d’origine, par voie aérienne.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 s_col_no_bgcolor pb24">
+              <div class="row">
+                <div class="col-lg-12 pt0 pb16" data-name="Box">
+                  <h2>
+                    <br/>
+                    <br/>
+                  </h2>
+                  <h2>
+                    <br/>
+                  </h2>
+                </div>
+                <div class="col-lg-12 pt16 pb8" data-name="Box">
+                  <span class="fa fa-2x fa-automobile rounded s_features_grid_icon shadow rounded-circle" style="background-color: rgb(254, 126, 46); color: rgb(255, 255, 255);" data-original-title="" title="" aria-describedby="tooltip483113"/>
+                  <div class="s_features_grid_content">
+                    <h4>Transport</h4>
+                    <p style="text-align: justify;">
+                      <span>le
+transfert de la dépouille du lieu de décès (territoire&amp;nbsp;Belge) vers <b>Brussels
+Airport. <br/></b></span>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-12 pt16 pb0" data-name="Box">
+                  <span class="fa fa-2x fa-tint rounded s_features_grid_icon shadow rounded-circle" style="background-color: rgb(254, 126, 46); color: rgb(255, 255, 255);" data-original-title="" title="" aria-describedby="tooltip883952"/>
+                  <div class="s_features_grid_content">
+                    <h4>Cercueil rapatriement<br/></h4>
+                    <p>cercueil hermétique, plaque nominative, emballage aérien. <br/></p>
+                  </div>
+                </div>
+                <div class="col-lg-12 pt16 pb16" data-name="Box">
+                  <span class="fa fa-2x fa-briefcase rounded-circle s_features_grid_icon shadow" style="background-color: rgb(254, 126, 46); color: rgb(255, 255, 255);" data-original-title="" title="" aria-describedby="tooltip968022"/>
+                  <div class="s_features_grid_content">
+                    <h4>Formalités administratives<br/></h4>
+                    <p style="text-align: justify;">La prise en charge effectuée par Noble Retour.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_call_to_action bg-200 pt24 pb0">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 pb24">
+              <h3><b>Vous êtes intéressé&amp;nbsp;</b> par nos services ?<br/></h3>
+              <p class="lead">Nous sommes le premier partenaire de votre dernier voyage.<br/></p>
+            </div>
+            <div class="col-lg-3 s_btn text-right pt8 pb24">
+              <a href="/faire-un-don" class="btn btn-primary btn-lg">
+                <span class="o_default_snippet_text" data-original-title="" title="" aria-describedby="tooltip647822">Faire un don</span>
+                <i class="fa fa-1x fa-fw fa-arrow-circle-right ml-1"/>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+     
+	
+	
+	
+	</t>
+	
+	
+	
+	
+</template>
+
+<record id="conditions_dutilisations_page" model="website.page">
+        <field name="website_published">True</field>
+        <field name="url">/a-propos</field>
+        <field name="view_id" ref="a propos"/>
+</record>
+
+</odoo>

@@ -1,0 +1,64 @@
+.bb-slider {
+    width: 100%;
+    height: 500px;
+    position: relative;   
+    overflow: hidden;
+}
+
+.bb-slide { 
+    width: 100%;
+    height: 100%;   
+    position: absolute;  
+    opacity: 0;
+    transition: opacity 600ms ease-in;    
+}
+
+.bb-slide.bb-active {
+    opacity: 0.75;
+}
+
+.bb-dots {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bb-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.bb-dot.bb-active {
+    opacity: 1;
+    cursor: default;
+}
+.bb-dot:not(:last-child) {
+    margin-right: 4px;
+}
+
+.slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .one {
+            background-color: green;
+            background-image: url("./images/homeslider.jpeg");
+        }
+        .two {
+            background-color: tomato;
+            background-image: url("./images/projet1.jpeg");
+        }
+        .three {
+            background-color: teal;
+            background-image: url(https://source.unsplash.com/7j6zcEZD8aM/1280x900);
+        }
